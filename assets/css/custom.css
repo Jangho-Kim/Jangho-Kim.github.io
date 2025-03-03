@@ -1,0 +1,81 @@
+/* Custom Styles for Lab Website */
+
+/* Members Section */
+.category-heading {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #fed136;
+    color: #212529;
+  }
+  
+  .member-card {
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .member-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .member-interests {
+    text-align: left;
+  }
+  
+  .btn-social {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Publications Section */
+  .publications-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .publication-item {
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .publication-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .publication-title {
+    margin-bottom: 10px;
+  }
+  
+  .publication-title a {
+    color: #212529;
+    text-decoration: none;
+  }
+  
+  .publication-title a:hover {
+    color: #fed136;
+  }
+  
+  .publication-authors {
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .publication-venue {
+    margin-bottom: 0;
+  }
+  
+  /* Notice Section */
+  .service-heading {
+    margin-top: 20px;
+  }

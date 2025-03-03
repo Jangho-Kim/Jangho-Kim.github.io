@@ -1,0 +1,57 @@
+<!-- Notice -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+  <section class="page-section" id="{{ site.data.sitetext[site.locale].notice.section | default: "notice" }}">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].notice.title | default: "Notice" }}</h2>
+          {% if site.data.sitetext[site.locale].notice.text %}
+          <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].notice.text }}</h3>
+          {% endif %}
+        </div>
+      </div>
+      
+      <div class="row text-center">
+      {% for notice in site.data.sitetext[site.locale].notice.list %}
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="{{ notice.icon | default: "fas fa-info-circle" }} fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">{{ notice.title | markdownify }}</h4>
+          {% if notice.desc %}<div class="text-muted">{{ notice.desc | markdownify }}</div>{% endif %}
+        </div>
+      {% endfor %}
+      </div>
+      
+    </div>
+  </section>
+{% else %}
+<section class="page-section" id="{{ site.data.sitetext.notice.section | default: "notice" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.notice.title | default: "Notice" }}</h2>
+        {% if site.data.sitetext.notice.text %}
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext.notice.text }}</h3>
+        {% endif %}
+      </div>
+    </div>
+    
+    <div class="row text-center">
+    {% for notice in site.data.sitetext.notice.list %}
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fas fa-circle fa-stack-2x text-primary"></i>
+          <i class="{{ notice.icon | default: "fas fa-info-circle" }} fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading">{{ notice.title | markdownify }}</h4>
+        {% if notice.desc %}<div class="text-muted">{{ notice.desc | markdownify }}</div>{% endif %}
+      </div>
+    {% endfor %}
+    </div>
+    
+  </div>
+</section>
+{% endif %}
+<!-- End Notice -->
