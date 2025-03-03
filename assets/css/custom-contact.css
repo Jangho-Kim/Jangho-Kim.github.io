@@ -1,20 +1,17 @@
-/* 연락처 섹션 텍스트 색상 수정 */
+/* 연락처 섹션 배경 및 텍스트 색상 수정 */
 section#contact {
     background-color: var(--navy-dark);
-    color: navy;
-  }
-  
-  section#contact h2.section-heading,
-  section#contact h3.section-subheading,
-  section#contact .contact-info h4,
-  section#contact .contact-info p,
-  section#contact label,
-  section#contact .form-control::placeholder {
     color: white;
   }
   
+  section#contact h2.section-heading,
+  section#contact h3.section-subheading {
+    color: white;
+  }
+  
+  /* 연락처 정보 박스 스타일 */
   .contact-info {
-    background-color: var(--navy-medium);
+    background-color: var(--navy-medium);  /* 네이비 중간 색상으로 배경 설정 */
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(10, 25, 47, 0.3);
@@ -49,16 +46,30 @@ section#contact {
     text-decoration: underline;
   }
   
+  /* 양식 요소 스타일 */
+  section#contact .form-group input,
+  section#contact .form-group textarea {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+  }
+  
+  section#contact .form-group input:focus,
+  section#contact .form-group textarea:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: var(--accent);
+  }
+  
   /* placeholder 텍스트 색상 조정 */
   section#contact ::-webkit-input-placeholder {
-    color: #ccc;
+    color: rgba(255, 255, 255, 0.7);
   }
   section#contact :-moz-placeholder {
-    color: #ccc;
+    color: rgba(255, 255, 255, 0.7);
   }
   section#contact ::-moz-placeholder {
-    color: #ccc;
+    color: rgba(255, 255, 255, 0.7);
   }
   section#contact :-ms-input-placeholder {
-    color: #ccc;
+    color: rgba(255, 255, 255, 0.7);
   }
