@@ -19,11 +19,11 @@ section#contact .container {
   color: var(--navy-dark);
 }
 
-section#contact h2.section-heading {
+section#contact h2.section-heading,
+section#contact h3.section-subheading {
   color: white;
 }
 /* 모든 텍스트 흰색으로 */
-section#contact h3.section-subheading,
 section#contact p,
 section#contact label,
 section#contact .text-muted {
