@@ -1,52 +1,34 @@
-/* 연락처 섹션 배경 및 텍스트 색상 수정 */
+/* 연락처 섹션의 흰색 배경 제거 */
 section#contact {
   background-color: var(--navy-dark);
   color: white;
 }
 
-section#contact h2.section-heading,
-section#contact h3.section-subheading {
-  color: white;
+/* 추가된 하얀색 컨테이너 배경 제거 */
+section#contact .container {
+  background-color: transparent;
 }
 
-/* 연락처 정보 박스 스타일 */
+/* 연락처 인포 박스의 배경 수정 */
 .contact-info {
-  background-color: var(--navy-medium);  /* 네이비 중간 색상으로 배경 설정 */
+  background-color: var(--navy-medium); /* 약간 밝은 네이비 */
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(10, 25, 47, 0.3);
   margin-bottom: 30px;
-}
-
-.contact-info h4 {
-  color: white !important;
-  margin-bottom: 20px;
-  border-bottom: 2px solid white;
-  padding-bottom: 10px;
-}
-
-.contact-info p {
-  margin-bottom: 10px;
-  color: white !important;
-}
-
-.contact-info i {
-  margin-right: 10px;
-  color: var(--accent);
-}
-
-.contact-info a {
-  color: var(--light-slate);
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-.contact-info a:hover {
   color: white;
-  text-decoration: underline;
 }
 
-/* 양식 요소 스타일 */
+/* 모든 텍스트 흰색으로 */
+section#contact h2.section-heading,
+section#contact h3.section-subheading,
+section#contact p,
+section#contact label,
+section#contact .text-muted {
+  color: white !important;
+}
+
+/* 폼 요소들도 어두운 배경에 맞게 조정 */
 section#contact .form-group input,
 section#contact .form-group textarea {
   background-color: rgba(255, 255, 255, 0.1);
@@ -54,13 +36,7 @@ section#contact .form-group textarea {
   color: white;
 }
 
-section#contact .form-group input:focus,
-section#contact .form-group textarea:focus {
-  background-color: rgba(255, 255, 255, 0.2);
-  border-color: var(--accent);
-}
-
-/* placeholder 텍스트 색상 조정 */
+/* 플레이스홀더 텍스트 색상 */
 section#contact ::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.7);
 }
