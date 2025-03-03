@@ -1,7 +1,7 @@
 /* 연락처 섹션의 흰색 배경 제거 */
 section#contact {
   background-color: var(--navy-dark);
-  color: white;
+  /* color: white; */
 }
 
 /* 추가된 하얀색 컨테이너 배경 제거 */
