@@ -1,7 +1,7 @@
 /* 연락처 섹션의 흰색 배경 제거 */
 section#contact {
   background-color: var(--navy-dark);
-  color: white;
+  color: navy;
 }
 
 /* 추가된 하얀색 컨테이너 배경 제거 */
@@ -25,7 +25,7 @@ section#contact h3.section-subheading,
 section#contact p,
 section#contact label,
 section#contact .text-muted {
-  color: white !important;
+  color: navy !important;
 }
 
 /* 폼 요소들도 어두운 배경에 맞게 조정 */
