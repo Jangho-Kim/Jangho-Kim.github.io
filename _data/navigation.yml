@@ -11,15 +11,15 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Notice"
+    - title: "NOTICE"
       section: notice
-    - title: "Members"
+    - title: "MEMBERS"
       section: members
-    - title: "About"
+    - title: "ABOUT"
       section: about
-    - title: "Publications"
+    - title: "PUBLICATIONS"
       section: publications
-    - title: "Contact"
+    - title: "CONTACT"
       section: contact
 en-US:
   <<: *DEFAULT_EN
