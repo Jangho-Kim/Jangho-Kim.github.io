@@ -7,23 +7,27 @@ en: &DEFAULT_EN
     button: Learn More
     buttonlink: "#notice"
 
-notice:
-  title: "Notice"
-  text: "연구실 소식 및 공지사항"
-  section: notice
-  list:
-    - title: "신규 논문 출판"
-      date: "2025-02-25"
-      desc: "우리 연구실의 'AI in Healthcare' 논문이 국제 저널에 게재되었습니다."
-      link: "#"
-    - title: "학부생 연구원 모집"
-      date: "2025-02-15"
-      desc: "머신러닝과 컴퓨터 비전에 관심 있는 학부생을 모집합니다."
-      link: "#"
-    - title: "워크샵 개최 안내"
-      date: "2025-02-10"
-      desc: "3월 15일 AI 기술 동향 워크샵을 개최합니다. 관심 있는 학생들의 참여를 바랍니다."
-      link: "#"
+  notice:
+    title: "Notice"
+    text: "연구실 소식 및 공지사항"
+    section: notice
+    list:
+      - title: "신규 논문 출판"
+        date: "2025-02-25"
+        desc: "우리 연구실의 'AI in Healthcare' 논문이 국제 저널에 게재되었습니다."
+        link: "#"
+      - title: "학부생 연구원 모집"
+        date: "2025-02-15"
+        desc: "머신러닝과 컴퓨터 비전에 관심 있는 학부생을 모집합니다."
+        link: "#"
+      - title: "워크샵 개최 안내"
+        date: "2025-02-10"
+        desc: "3월 15일 AI 기술 동향 워크샵을 개최합니다. 관심 있는 학생들의 참여를 바랍니다."
+        link: "#"
+      - title: "연구비 지원 소식"
+        date: "2025-02-01"
+        desc: "우리 연구실이 새로운 국가 연구 과제에 선정되었습니다."
+        link: "#"
 
   members:
     title: "OUR TEAM"
@@ -35,6 +39,7 @@ notice:
         title: "Lab Director"
         category: "Professor"
         image: assets/img/team/500x500.jpg
+        hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
         interests: "Machine Learning, Computer Vision, Natural Language Processing"
         email: "professor@example.com"
         social:
@@ -47,6 +52,7 @@ notice:
         title: "Senior Researcher"
         category: "PhD"
         image: assets/img/team/2.jpg
+        hover_image: assets/img/team/2-fun.jpg  # 이스터에그 이미지
         interests: "Reinforcement Learning, Robotics"
         email: "phd1@example.com"
         social:
@@ -59,6 +65,7 @@ notice:
         title: "PhD Candidate"
         category: "PhD"
         image: assets/img/team/500x500.jpg
+        hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
         interests: "Deep Learning, Healthcare Applications"
         email: "phd2@example.com"
         social:
@@ -71,6 +78,7 @@ notice:
         title: "Research Assistant"
         category: "Master"
         image: assets/img/team/500x500.jpg
+        hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
         interests: "Data Mining, Social Network Analysis"
         email: "master1@example.com"
         social:
@@ -82,6 +90,7 @@ notice:
         title: "Research Assistant"
         category: "Master"
         image: assets/img/team/500x500.jpg
+        hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
         interests: "Computer Vision, Image Processing"
         email: "master2@example.com"
         social:
@@ -93,6 +102,7 @@ notice:
         title: "Research Intern"
         category: "Undergraduate"
         image: assets/img/team/500x500.jpg
+        hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
         interests: "Web Development, Frontend Technologies"
         email: "undergrad1@example.com"
         social:
@@ -103,6 +113,7 @@ notice:
         title: "Alumni - Senior Engineer at Google"
         category: "Graduated"
         image: assets/img/team/500x500.jpg
+        hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
         interests: "Machine Learning, AI Ethics"
         social:
           linkedin: https://linkedin.com/
@@ -111,7 +122,7 @@ notice:
   about:
     title: "About Our Lab"
     text: "Our research focus"
-    body: "Our laboratory specializes in cutting-edge research in artificial intelligence, machine learning, and their applications in real-world scenarios. We are committed to advancing the state-of-the-art in these fields through innovative approaches and interdisciplinary collaboration."
+    body: "우리 연구실은 인공지능, 머신러닝, 컴퓨터 비전 분야의 최첨단 연구를 진행하고 있습니다. 특히 헬스케어, 로보틱스, 자율 주행 등 다양한 실세계 응용 분야에 AI 기술을 적용하는 연구에 중점을 두고 있습니다. 혁신적인 접근법과 학제간 협력을 통해 이 분야의 발전에 기여하고자 합니다."
     section: about
 
   publications:
@@ -131,24 +142,32 @@ notice:
         authors: "Johnson E., Lee S., Doe J."
         venue: "Journal of Biomedical Informatics, 2023"
         link: "#"
+      - title: "Explainable AI for Medical Diagnosis"
+        authors: "Doe J., Chen J., Wang D."
+        venue: "Nature Machine Intelligence, 2022"
+        link: "#"
+      - title: "Federated Learning: Privacy Preserving Machine Learning"
+        authors: "Johnson E., Smith J., Brown M."
+        venue: "Proceedings of the ACM Conference on Computer and Communications Security, 2022"
+        link: "#"
 
   contact:
     title: "Contact Us"
-    text: "Get in touch with our team"
+    text: "연구실에 관심이 있으시면 언제든지 연락주세요"
     section: contact
-    name: "Name*"
-    name-validation: "Please enter your name."
-    email: "Email*"
-    email-validation: "Please enter your email address."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
-    message: "Message*"
-    message-validation: "Please enter a message."
-    subject: "Lab Contact Form Submission"
-    submit: "Send Message"
+    name: "이름*"
+    name-validation: "이름을 입력해주세요."
+    email: "이메일*"
+    email-validation: "이메일 주소를 입력해주세요."
+    phone: "전화번호"
+    phone-validation: "전화번호를 입력해주세요."
+    message: "메시지*"
+    message-validation: "메시지를 입력해주세요."
+    subject: "연구실 웹사이트 문의"
+    submit: "메시지 보내기"
 
   footer:
-    legal: "Privacy Policy"
+    legal: "개인정보 처리방침"
     social:
       - url: https://twitter.com
         icon: "fab fa-twitter"
