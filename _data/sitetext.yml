@@ -7,20 +7,23 @@ en: &DEFAULT_EN
     button: Learn More
     buttonlink: "#notice"
 
-  notice:
-    title: "Notice"
-    text: "Latest updates from our lab"
-    section: notice
-    list:
-      - title: "New Publication"
-        desc: "Our research paper has been accepted at a top-tier conference."
-        icon: fas fa-newspaper
-      - title: "Recruiting"
-        desc: "We are looking for passionate researchers to join our team."
-        icon: fas fa-users
-      - title: "Open Source"
-        desc: "Check out our latest open-source projects on GitHub."
-        icon: fab fa-github
+notice:
+  title: "Notice"
+  text: "연구실 소식 및 공지사항"
+  section: notice
+  list:
+    - title: "신규 논문 출판"
+      date: "2025-02-25"
+      desc: "우리 연구실의 'AI in Healthcare' 논문이 국제 저널에 게재되었습니다."
+      link: "#"
+    - title: "학부생 연구원 모집"
+      date: "2025-02-15"
+      desc: "머신러닝과 컴퓨터 비전에 관심 있는 학부생을 모집합니다."
+      link: "#"
+    - title: "워크샵 개최 안내"
+      date: "2025-02-10"
+      desc: "3월 15일 AI 기술 동향 워크샵을 개최합니다. 관심 있는 학생들의 참여를 바랍니다."
+      link: "#"
 
   members:
     title: "OUR TEAM"

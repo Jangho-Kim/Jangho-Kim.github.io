@@ -1,0 +1,157 @@
+/* 네이비 색상 테마 */
+:root {
+    --navy-dark: #0a192f;
+    --navy-medium: #172a45;
+    --navy-light: #303C55;
+    --navy-lightest: #4C5772;
+    --accent: #64FFDA;
+    --slate: #8892B0;
+    --light-slate: #CCD6F6;
+    --lightest-slate: #E6F1FF;
+  }
+  
+  /* 기본 요소 스타일 변경 */
+  body {
+    background-color: #fff;
+    color: var(--navy-dark);
+  }
+  
+  .page-section h2.section-heading {
+    color: var(--navy-dark);
+  }
+  
+  .navbar {
+    background-color: var(--navy-dark) !important;
+  }
+  
+  #mainNav .navbar-brand {
+    color: var(--light-slate);
+  }
+  
+  #mainNav .navbar-brand:hover {
+    color: var(--accent);
+  }
+  
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: var(--light-slate);
+  }
+  
+  #mainNav .navbar-nav .nav-item .nav-link:hover,
+  #mainNav .navbar-nav .nav-item .nav-link.active {
+    color: var(--accent);
+  }
+  
+  .btn-primary {
+    background-color: var(--navy-medium);
+    border-color: var(--navy-medium);
+  }
+  
+  .btn-primary:hover, 
+  .btn-primary:active, 
+  .btn-primary:focus {
+    background-color: var(--navy-light) !important;
+    border-color: var(--navy-light) !important;
+  }
+  
+  .text-primary {
+    color: var(--navy-medium) !important;
+  }
+  
+  .fa-stack-2x.text-primary {
+    color: var(--navy-medium) !important;
+  }
+  
+  /* 헤더 변경 */
+  header.masthead {
+    background-image: linear-gradient(rgba(10, 25, 47, 0.8), rgba(10, 25, 47, 0.8)), url("../img/header-bg.jpg");
+  }
+  
+  /* Footer 변경 */
+  footer {
+    background-color: #fff !important;
+  }
+  
+  footer ul.social-buttons li a {
+    background-color: var(--navy-dark);
+  }
+  
+  footer ul.social-buttons li a:hover {
+    background-color: var(--navy-medium);
+  }
+  
+  /* 멤버 섹션 */
+  .category-heading {
+    color: var(--navy-dark);
+    border-bottom: 2px solid var(--navy-medium);
+  }
+  
+  .member-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(10, 25, 47, 0.2);
+  }
+  
+  /* 모달 스타일 변경 */
+  .close-modal .lr, 
+  .close-modal .lr .rl {
+    background-color: var(--navy-dark);
+  }
+  
+  .portfolio-modal .modal-content {
+    background-color: #fff;
+  }
+  
+  .portfolio-modal .modal-content h2 {
+    color: var(--navy-dark);
+  }
+  
+  .portfolio-modal .modal-content button {
+    background-color: var(--navy-medium);
+  }
+  
+  .portfolio-modal .modal-content button:hover {
+    background-color: var(--navy-light);
+  }
+  
+  /* 출판물 섹션 스타일 */
+  .publication-title a {
+    color: var(--navy-dark);
+  }
+  
+  .publication-title a:hover {
+    color: var(--navy-medium);
+  }
+  
+  .publication-item:hover {
+    border-left: 3px solid var(--navy-medium);
+  }
+  
+  /* 이스터 에그 호버 효과를 위한 스타일 */
+  .member-hover-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  
+  .member-hover-container img {
+    transition: opacity 0.3s ease;
+  }
+  
+  .member-hover-container .normal-image {
+    opacity: 1;
+  }
+  
+  .member-hover-container .hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  
+  .member-hover-container:hover .normal-image {
+    opacity: 0;
+  }
+  
+  .member-hover-container:hover .hover-image {
+    opacity: 1;
+  }

@@ -1,31 +1,39 @@
-<!-- Notice -->
+<!-- 게시판 스타일 공지사항 섹션 -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
-  <section class="page-section" id="{{ site.data.sitetext[site.locale].notice.section | default: "notice" }}">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].notice.title | default: "Notice" }}</h2>
-          {% if site.data.sitetext[site.locale].notice.text %}
-          <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].notice.text }}</h3>
-          {% endif %}
-        </div>
+<section class="page-section" id="{{ site.data.sitetext[site.locale].notice.section | default: "notice" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].notice.title | default: "Notice" }}</h2>
+        {% if site.data.sitetext[site.locale].notice.text %}
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].notice.text }}</h3>
+        {% endif %}
       </div>
-      
-      <div class="row text-center">
-      {% for notice in site.data.sitetext[site.locale].notice.list %}
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="{{ notice.icon | default: "fas fa-info-circle" }} fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">{{ notice.title | markdownify }}</h4>
-          {% if notice.desc %}<div class="text-muted">{{ notice.desc | markdownify }}</div>{% endif %}
-        </div>
-      {% endfor %}
-      </div>
-      
     </div>
-  </section>
+    
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="notice-board">
+          {% for notice in site.data.sitetext[site.locale].notice.list %}
+            <div class="notice-item">
+              <div class="notice-content">
+                <h4 class="notice-title">{{ notice.title | markdownify }}</h4>
+                {% if notice.date %}<div class="notice-date">{{ notice.date }}</div>{% endif %}
+                {% if notice.desc %}<div class="notice-desc">{{ notice.desc | markdownify }}</div>{% endif %}
+              </div>
+              {% if notice.link %}
+              <div class="notice-link">
+                <a href="{{ notice.link }}" class="btn btn-sm btn-primary">자세히 보기</a>
+              </div>
+              {% endif %}
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
 {% else %}
 <section class="page-section" id="{{ site.data.sitetext.notice.section | default: "notice" }}">
   <div class="container">
@@ -38,20 +46,28 @@
       </div>
     </div>
     
-    <div class="row text-center">
-    {% for notice in site.data.sitetext.notice.list %}
-      <div class="col-md-4">
-        <span class="fa-stack fa-4x">
-          <i class="fas fa-circle fa-stack-2x text-primary"></i>
-          <i class="{{ notice.icon | default: "fas fa-info-circle" }} fa-stack-1x fa-inverse"></i>
-        </span>
-        <h4 class="service-heading">{{ notice.title | markdownify }}</h4>
-        {% if notice.desc %}<div class="text-muted">{{ notice.desc | markdownify }}</div>{% endif %}
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="notice-board">
+          {% for notice in site.data.sitetext.notice.list %}
+            <div class="notice-item">
+              <div class="notice-content">
+                <h4 class="notice-title">{{ notice.title | markdownify }}</h4>
+                {% if notice.date %}<div class="notice-date">{{ notice.date }}</div>{% endif %}
+                {% if notice.desc %}<div class="notice-desc">{{ notice.desc | markdownify }}</div>{% endif %}
+              </div>
+              {% if notice.link %}
+              <div class="notice-link">
+                <a href="{{ notice.link }}" class="btn btn-sm btn-primary">자세히 보기</a>
+              </div>
+              {% endif %}
+            </div>
+          {% endfor %}
+        </div>
       </div>
-    {% endfor %}
     </div>
     
   </div>
 </section>
 {% endif %}
-<!-- End Notice -->
+<!-- 게시판 스타일 공지사항 섹션 끝 -->

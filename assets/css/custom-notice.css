@@ -1,0 +1,103 @@
+/* 게시판 스타일 공지사항 */
+.notice-board {
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(10, 25, 47, 0.1);
+    overflow: hidden;
+  }
+  
+  .notice-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+    border-bottom: 1px solid #eaeaea;
+    transition: all 0.3s ease;
+  }
+  
+  .notice-item:last-child {
+    border-bottom: none;
+  }
+  
+  .notice-item:hover {
+    background-color: #f8f9fa;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(10, 25, 47, 0.05);
+  }
+  
+  .notice-content {
+    flex: 1;
+  }
+  
+  .notice-title {
+    margin: 0;
+    color: var(--navy-dark);
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .notice-date {
+    color: var(--slate);
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .notice-desc {
+    margin-top: 10px;
+    color: var(--navy-light);
+  }
+  
+  .notice-link {
+    margin-left: 20px;
+  }
+  
+  .notice-link .btn {
+    white-space: nowrap;
+  }
+  
+  /* 이스터 에그 호버 효과 */
+  .team-member {
+    transition: all 0.3s ease;
+  }
+  
+  .team-member:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* 연락처 섹션 */
+  .contact-info {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(10, 25, 47, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .contact-info h4 {
+    color: var(--navy-dark);
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--navy-medium);
+    padding-bottom: 10px;
+  }
+  
+  .contact-info p {
+    margin-bottom: 10px;
+    color: var(--navy-light);
+  }
+  
+  .contact-info i {
+    margin-right: 10px;
+    color: var(--navy-medium);
+  }
+  
+  .contact-info a {
+    color: var(--navy-medium);
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .contact-info a:hover {
+    color: var(--navy-light);
+    text-decoration: underline;
+  }
