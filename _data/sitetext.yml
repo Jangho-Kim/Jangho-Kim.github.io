@@ -145,7 +145,7 @@ en: &DEFAULT_EN
   about:
     title: "About Our Lab"
     text: "Our research focus"
-    body: "MLPR 연구실에서는 Machine Learning과 Pattern Recognition을 활용해서 효율적인 인공지능 알고리즘 또는 모델을 만드는 연구를 하고 있습니다.  특히, Ubiqutous AI "누구에게나 어디에서든지 사용가능한 AI"를 지향하고 있습니다.  "
+    body: "MLPR 연구실에서는 Machine Learning과 Pattern Recognition을 활용해서 효율적인 인공지능 알고리즘 또는 모델을 만드는 연구를 하고 있습니다.  특히, Ubiqutous AI "누구에게나 어디에서든지 사용가능한 AI"를 지향하고 있습니다.    "
     section: about
 
   publications:
