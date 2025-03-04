@@ -89,7 +89,7 @@ en: &DEFAULT_EN
       #     scholar: https://scholar.google.com/
           
       - name: "Sangho An"
-        id: "Sangho An"
+        id: "Sangho-An"
         title: ""
         category: "Master"
         image: assets/img/team/ash.jpeg
@@ -101,7 +101,7 @@ en: &DEFAULT_EN
           linkedin: https://linkedin.com/
       
       - name: "Hyunjoon Cho"
-        id: "Hyunjoon Cho"
+        id: "Hyunjoon-Cho"
         title: ""
         category: "Master"
         image: assets/img/team/jyj.jpeg
@@ -113,7 +113,7 @@ en: &DEFAULT_EN
           linkedin: https://linkedin.com/
 
       - name: "Taeseong Jeong"
-        id: "Taeseong Jeong"
+        id: "Taeseong-Jeong"
         title: ""
         category: "Master"
         image: assets/img/team/jts.jpeg
@@ -125,7 +125,7 @@ en: &DEFAULT_EN
           linkedin: https://linkedin.com/
           
       - name: "Jinwoo Jeong"
-        id: "Jinwoo Jeong"
+        id: "Jinwoo-Jeong"
         title: ""
         category: "Undergraduate"
         image: assets/img/team/500x500.jpg
@@ -136,7 +136,7 @@ en: &DEFAULT_EN
           github: https://github.com/
           
       - name: "Jongyun Shin"
-        id: "Jongyun Shin"
+        id: "Jongyun-Shin"
         title: ""
         category: "Graduated"
         image: assets/img/team/500x500.jpg
@@ -147,7 +147,7 @@ en: &DEFAULT_EN
           scholar: https://scholar.google.com/
 
       - name: "Jinwoo Kim"
-        id: "Jinwoo Kim"
+        id: "Jinwoo-Kim"
         title: ""
         category: "Graduated"
         image: assets/img/team/500x500.jpg
