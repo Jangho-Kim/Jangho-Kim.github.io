@@ -13,93 +13,11 @@
 .member-card {
   cursor: pointer;
   transition: all 0.3s ease;
-  text-align: center;
-  margin-bottom: 30px;
 }
 
 .member-card:hover {
   transform: translateY(-5px);
-}
-
-/* 세로가 더 긴 타원형 이미지 컨테이너 */
-.member-hover-container {
-  position: relative;
-  width: 160px;  /* 가로 크기 */
-  height: 200px; /* 세로 크기 - 더 길게 설정 */
-  margin: 0 auto 15px;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%; /* 타원형 만들기 */
-}
-
-/* 이미지가 컨테이너 내에서 적절히 표시되도록 설정 */
-.member-hover-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: opacity 0.3s ease;
-  border-radius: 50%; /* 이미지도 타원형으로 설정 */
-}
-
-.member-hover-container .normal-image {
-  opacity: 1;
-}
-
-.member-hover-container .hover-image {
-  opacity: 0;
-}
-
-.member-hover-container:hover .normal-image {
-  opacity: 0;
-}
-
-.member-hover-container:hover .hover-image {
-  opacity: 1;
-}
-
-/* 텍스트 스타일 */
-.team-member h4,
-.team-member p {
-  margin-top: 10px;
-  margin-bottom: 5px;
-  text-align: center;
-  width: 100%;
-}
-
-/* 모달 내 이미지 스타일 */
-.modal-body img {
-  width: 160px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin: 0 auto;
-}
-
-/* 팀 멤버 카드 레이아웃 */
-.col-md-4 {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 30px;
-}
-
-.team-member {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-
-/* 교수님 이미지 스타일 (필요한 경우) */
-.professor-image-container img {
-  width: 160px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 .member-interests {
@@ -160,4 +78,44 @@
 /* Notice Section */
 .service-heading {
   margin-top: 20px;
+}
+
+  
+/* Custom Styles for Lab Website / 
+/ Members Section / 
+/* 멤버 카드 중앙 정렬 수정 */
+.team-member {
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 이미지 컨테이너 중앙 정렬 */
+.member-hover-container {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 이름과 직책 텍스트 중앙 정렬 */
+.team-member h4,
+.team-member p {
+  width: 100%;
+  text-align: center;
+}
+
+/* 모든 멤버 섹션 안의 열 중앙 정렬 */
+#members .col-md-4 {
+  display: flex;
+  justify-content: center;
 }
