@@ -197,7 +197,7 @@ en: &DEFAULT_EN
         venue: "Thirty-seventh International Conference on Machine Learning (ICML 2020), July 2020, Online (BK21+ 사업 선정 우수학술대회)"
         link: "https://arxiv.org/abs/2002.01775"
 
-      - title: StackNet: "Stacking Parameters for Continual learning"
+      - title: "StackNet: Stacking Parameters for Continual learning"
         authors: "Jangho Kim*, Jeesoo Kim*, Nojun Kwak (* equal contribution)"
         venue: "CVPR 2020 Workshop on Continual Learning in Computer Vision, June 2020, Seattle WA (Online)"
         link: "https://arxiv.org/abs/1809.02441"
