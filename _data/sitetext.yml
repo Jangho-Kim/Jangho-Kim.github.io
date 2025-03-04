@@ -44,8 +44,8 @@ en: &DEFAULT_EN
         email: "jangho.kim@kookmin.ac.kr"
         social:
           github: https://github.com/Jangho-Kim
-          linkedin: https://linkedin.com/
-          scholar: https://scholar.google.com/
+          # linkedin: https://linkedin.com/
+          scholar: https://scholar.google.co.kr/citations?user=mzFEJVIAAAAJ&hl=En
           
       - name: "Hea Eun Lee"
         id: "john-smith"
@@ -57,7 +57,7 @@ en: &DEFAULT_EN
         email: "phd1@example.com"
         social:
           github: https://github.com/
-          linkedin: https://linkedin.com/
+          # linkedin: https://linkedin.com/
           scholar: https://scholar.google.com/
           
       # - name: "Emily Johnson"
@@ -83,7 +83,7 @@ en: &DEFAULT_EN
         email: "do753951@kookmin.ac.kr"
         social:
           github: https://github.com/ahnho
-          linkedin: https://linkedin.com/
+          # linkedin: https://linkedin.com/
       
       - name: "Hyunjoon Cho"
         id: "Hyunjoon Cho"
@@ -95,7 +95,7 @@ en: &DEFAULT_EN
         email: "master2@example.com"
         social:
           github: https://github.com/hyunjoon0208
-          linkedin: https://linkedin.com/
+          # linkedin: https://linkedin.com/
 
       - name: "Taeseong Jeong"
         id: "Taeseong Jeong"
@@ -107,7 +107,7 @@ en: &DEFAULT_EN
         email: "tasong12@kookmin.ac.kr"
         social:
           github: https://github.com/Topadonijah
-          linkedin: https://linkedin.com/
+          # linkedin: https://linkedin.com/
           
       - name: "Jinwoo Jeong"
         id: "Jinwoo Jeong"
@@ -145,7 +145,7 @@ en: &DEFAULT_EN
   about:
     title: "About Our Lab"
     text: "Our research focus"
-    body: "우리 연구실은 인공지능, 머신러닝, 컴퓨터 비전 분야의 최첨단 연구를 진행하고 있습니다. 특히 헬스케어, 로보틱스, 자율 주행 등 다양한 실세계 응용 분야에 AI 기술을 적용하는 연구에 중점을 두고 있습니다. 혁신적인 접근법과 학제간 협력을 통해 이 분야의 발전에 기여하고자 합니다."
+    body: "MLPR 연구실에서는 Machine Learning과 Pattern Recognition을 활용해서 효율적인 인공지능 알고리즘 또는 모델을 만드는 연구를 하고 있습니다.  특히, Ubiqutous AI "누구에게나 어디에서든지 사용가능한 AI"를 지향하고 있습니다.  "
     section: about
 
   publications:
