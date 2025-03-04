@@ -36,11 +36,11 @@ en: &DEFAULT_EN
     people:
       - name: "Prof. Jangho Kim"
         id: "jane-doe"
-        title: "Lab Director"
+        title: ""
         category: "Professor"
-        image: assets/img/team/kjh.jpeg
-        hover_image: assets/img/team/kjh.jpeg  # 이스터에그 이미지
-        interests: "Machine Learning, Computer Vision, Natural Language Processing"
+        image: assets/img/team/kjh.jpg
+        hover_image: assets/img/team/kjh.jpg  # 이스터에그 이미지
+        interests: "Model Compression, Computer Vision, Natural Language Processing"
         email: "jangho.kim@kookmin.ac.kr"
         social:
           github: https://github.com/Jangho-Kim
@@ -49,52 +49,64 @@ en: &DEFAULT_EN
           
       - name: "Hea Eun Lee"
         id: "john-smith"
-        title: "Senior Researcher"
+        title: ""
         category: "PhD"
-        image: assets/img/team/2.jpg
-        hover_image: assets/img/team/2-fun.jpg  # 이스터에그 이미지
-        interests: "Reinforcement Learning, Robotics"
+        image: assets/img/team/21.jpg
+        hover_image: assets/img/team/21-fun.jpg  # 이스터에그 이미지
+        interests: "Natural Language Processing"
         email: "phd1@example.com"
         social:
           github: https://github.com/
           linkedin: https://linkedin.com/
           scholar: https://scholar.google.com/
           
-      - name: "Emily Johnson"
-        id: "emily-johnson"
-        title: "PhD Candidate"
-        category: "PhD"
-        image: assets/img/team/500x500.jpg
-        hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
-        interests: "Deep Learning, Healthcare Applications"
-        email: "phd2@example.com"
-        social:
-          github: https://github.com/
-          linkedin: https://linkedin.com/
-          scholar: https://scholar.google.com/
+      # - name: "Emily Johnson"
+      #   id: "emily-johnson"
+      #   title: "PhD Candidate"
+      #   category: "PhD"
+      #   image: assets/img/team/500x500.jpg
+      #   hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
+      #   interests: "Deep Learning, Healthcare Applications"
+      #   email: "phd2@example.com"
+      #   social:
+      #     github: https://github.com/
+      #     linkedin: https://linkedin.com/
+      #     scholar: https://scholar.google.com/
           
-      - name: "Michael Brown"
+      - name: "Sangho An"
         id: "michael-brown"
-        title: "Research Assistant"
+        title: ""
         category: "Master"
-        image: assets/img/team/500x500.jpg
-        hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
-        interests: "Data Mining, Social Network Analysis"
-        email: "master1@example.com"
+        image: assets/img/team/ash.jpeg
+        hover_image: assets/img/team/ash.jpeg  # 이스터에그 이미지
+        interests: "Deep Learning, Model Pruning, Quantization"
+        email: "do753951@kookmin.ac.kr"
         social:
-          github: https://github.com/
+          github: https://github.com/ahnho
           linkedin: https://linkedin.com/
       
-      - name: "Sarah Lee"
+      - name: "Hyunjoon Cho"
         id: "sarah-lee"
-        title: "Research Assistant"
+        title: ""
         category: "Master"
-        image: assets/img/team/500x500.jpg
-        hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
-        interests: "Computer Vision, Image Processing"
+        image: assets/img/team/jyj.jpeg
+        hover_image: assets/img/team/jyj.jpeg  # 이스터에그 이미지
+        interests: "Machine Unlearning, Deep Learning, Autonomous Driving"
         email: "master2@example.com"
         social:
           github: https://github.com/
+          linkedin: https://linkedin.com/
+
+      - name: "Taeseong Jeong"
+        id: "sarah-lee"
+        title: ""
+        category: "Master"
+        image: assets/img/team/jts.jpeg
+        hover_image: assets/img/team/jts.jpeg  # 이스터에그 이미지
+        interests: "generative model, diffusion model"
+        email: "tasong12@kookmin.ac.kr"
+        social:
+          github: https://github.com/Topadonijah
           linkedin: https://linkedin.com/
           
       - name: "David Wang"
@@ -129,85 +141,26 @@ en: &DEFAULT_EN
     title: "Publications"
     text: "Our research contributions"
     section: publications
-    
-    # International Conferences and Workshops
-    conferences:
-      - title: "Deep Learning for Computer Vision: A Comprehensive Approach"
-        authors: "Kim J., Lee S., Park H."
-        venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024"
+    papers:
+      - title: "Deep Learning for Computer Vision: A Comprehensive Review"
+        authors: "Doe J., Smith J., Johnson E."
+        venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence, 2024"
         link: "#"
-        awards: "Best Paper Award"
-        
-      - title: "Novel Attention Mechanisms for Visual Recognition Tasks"
-        authors: "Lee S., Kim J., Choi M."
+      - title: "Reinforcement Learning in Robotic Applications"
+        authors: "Smith J., Brown M., Doe J."
         venue: "International Conference on Machine Learning (ICML), 2023"
         link: "#"
-        
-      - title: "Efficient Transformers for Edge Computing Applications"
-        authors: "Park H., Kim J., Jeong K."
-        venue: "Conference on Neural Information Processing Systems (NeurIPS), 2023"
+      - title: "Natural Language Processing for Healthcare: Challenges and Opportunities"
+        authors: "Johnson E., Lee S., Doe J."
+        venue: "Journal of Biomedical Informatics, 2023"
         link: "#"
-    
-    # International Journals
-    journals:
-      - title: "A Survey on Pattern Recognition Techniques for Medical Imaging"
-        authors: "Kim J., Lee S., Jeong K., Park H."
-        venue: "IEEE Transactions on Medical Imaging, Vol. 42, No. 5, pp. 1235-1250, 2024"
+      - title: "Explainable AI for Medical Diagnosis"
+        authors: "Doe J., Chen J., Wang D."
+        venue: "Nature Machine Intelligence, 2022"
         link: "#"
-        impact_factor: "11.037"
-        
-      - title: "Robust Feature Extraction Using Self-Supervised Learning"
-        authors: "Lee S., Kim J., Park H."
-        venue: "Pattern Recognition Journal, Vol. 135, pp. 789-801, 2023"
-        link: "#"
-        impact_factor: "8.518"
-        
-      - title: "Explainable AI for Healthcare Applications: Challenges and Solutions"
-        authors: "Park H., Kim J., Lee S."
-        venue: "Nature Machine Intelligence, Vol. 5, pp. 324-336, 2023"
-        link: "#"
-        impact_factor: "25.712"
-    
-    # Challenges
-    challenges:
-      - title: "Multi-Modal Image Segmentation Challenge"
-        team: "Team MLPR (Kim J., Lee S., Park H.)"
-        venue: "Medical Image Computing and Computer Assisted Intervention (MICCAI) Challenge, 2023"
-        link: "#"
-        rank: "1st Place"
-        
-      - title: "Autonomous Driving Perception Challenge"
-        team: "Team Vision (Park H., Kim J., Choi M.)"
-        venue: "IEEE Intelligent Vehicles Symposium, 2023"
-        link: "#"
-        rank: "2nd Place"
-    
-    # Open Archive and Tech Reports
-    archives:
-      - title: "Efficient Training Strategies for Large Language Models"
-        authors: "Kim J., Lee S."
-        venue: "arXiv:2311.12345, 2023"
-        link: "#"
-        
-      - title: "Self-Supervised Pretraining for Computer Vision Tasks"
-        authors: "Lee S., Park H., Kim J."
-        venue: "Technical Report TR-2023-01, 2023"
-        link: "#"
-    
-    # Patents
-    patents:
-      - title: "Method and System for Real-time Object Detection on Edge Devices"
-        inventors: "Kim J., Park H."
-        number: "KR10-2023-0123456"
-        status: "Pending"
-        date: "2023-03-15"
-        link: "#"
-        
-      - title: "Efficient Neural Network Compression Algorithm"
-        inventors: "Lee S., Kim J."
-        number: "US Patent 11,654,321"
-        status: "Granted"
-        date: "2022-08-10"
+      - title: "Federated Learning: Privacy Preserving Machine Learning"
+        authors: "Johnson E., Smith J., Brown M."
+        venue: "Proceedings of the ACM Conference on Computer and Communications Security, 2022"
         link: "#"
 
   contact:
