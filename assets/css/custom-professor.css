@@ -92,4 +92,5 @@
   img[alt="placeholder"], 
   .placeholder img {
     display: none !important;
+    content: none !important;
   }
