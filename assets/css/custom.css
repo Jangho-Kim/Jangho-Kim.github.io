@@ -95,8 +95,8 @@
 /* 이미지 컨테이너 중앙 정렬 */
 .member-hover-container {
   position: relative;
-  width: 180px;
-  height: 180px;
+  width: 160px;
+  height: 200px;
   margin: 0 auto;
   border-radius: 8px;
   background-color: #f8f9fa;
