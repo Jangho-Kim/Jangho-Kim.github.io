@@ -2,7 +2,7 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to Our Laboratory
+    title: Welcome to Our ML&PR Lab
     text: Research and Innovation
     button: Learn More
     buttonlink: "#notice"
