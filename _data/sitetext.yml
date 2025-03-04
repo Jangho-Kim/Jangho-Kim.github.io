@@ -109,24 +109,35 @@ en: &DEFAULT_EN
           github: https://github.com/Topadonijah
           linkedin: https://linkedin.com/
           
-      - name: "David Wang"
-        id: "david-wang"
-        title: "Research Intern"
+      - name: "Jinwoo Jeong"
+        id: "Jinwoo Jeong"
+        title: ""
         category: "Undergraduate"
         image: assets/img/team/500x500.jpg
         hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
-        interests: "Web Development, Frontend Technologies"
+        interests: "Model Quantization"
         email: "undergrad1@example.com"
         social:
           github: https://github.com/
           
-      - name: "Jessica Chen"
-        id: "jessica-chen"
-        title: "Alumni - Senior Engineer at Google"
+      - name: "Jongyun Shin"
+        id: "Jongyun Shin"
+        title: ""
+        category: "Graduated"
+        image: assets/img/team/50x500.jpg
+        hover_image: assets/img/team/50x500-fun.jpg  # 이스터에그 이미지
+        interests: "Machine Learning, PEPT, diffusion model"
+        social:
+          linkedin: https://linkedin.com/
+          scholar: https://scholar.google.com/
+
+      - name: "Jinwoo Kim"
+        id: "Jinwoo Kim"
+        title: ""
         category: "Graduated"
         image: assets/img/team/500x500.jpg
         hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
-        interests: "Machine Learning, AI Ethics"
+        interests: "Machine Learning, Model Compression"
         social:
           linkedin: https://linkedin.com/
           scholar: https://scholar.google.com/
