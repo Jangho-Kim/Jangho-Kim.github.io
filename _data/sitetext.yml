@@ -74,7 +74,7 @@ en: &DEFAULT_EN
       #     scholar: https://scholar.google.com/
           
       - name: "Sangho An"
-        id: "michael-brown"
+        id: "Sangho An"
         title: ""
         category: "Master"
         image: assets/img/team/ash.jpeg
@@ -86,7 +86,7 @@ en: &DEFAULT_EN
           linkedin: https://linkedin.com/
       
       - name: "Hyunjoon Cho"
-        id: "sarah-lee"
+        id: "Hyunjoon Cho"
         title: ""
         category: "Master"
         image: assets/img/team/jyj.jpeg
@@ -98,7 +98,7 @@ en: &DEFAULT_EN
           linkedin: https://linkedin.com/
 
       - name: "Taeseong Jeong"
-        id: "sarah-lee"
+        id: "Taeseong Jeong"
         title: ""
         category: "Master"
         image: assets/img/team/jts.jpeg
