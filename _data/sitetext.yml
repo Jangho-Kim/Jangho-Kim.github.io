@@ -129,26 +129,85 @@ en: &DEFAULT_EN
     title: "Publications"
     text: "Our research contributions"
     section: publications
-    papers:
-      - title: "Deep Learning for Computer Vision: A Comprehensive Review"
-        authors: "Doe J., Smith J., Johnson E."
-        venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence, 2024"
+    
+    # International Conferences and Workshops
+    conferences:
+      - title: "Deep Learning for Computer Vision: A Comprehensive Approach"
+        authors: "Kim J., Lee S., Park H."
+        venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024"
         link: "#"
-      - title: "Reinforcement Learning in Robotic Applications"
-        authors: "Smith J., Brown M., Doe J."
+        awards: "Best Paper Award"
+        
+      - title: "Novel Attention Mechanisms for Visual Recognition Tasks"
+        authors: "Lee S., Kim J., Choi M."
         venue: "International Conference on Machine Learning (ICML), 2023"
         link: "#"
-      - title: "Natural Language Processing for Healthcare: Challenges and Opportunities"
-        authors: "Johnson E., Lee S., Doe J."
-        venue: "Journal of Biomedical Informatics, 2023"
+        
+      - title: "Efficient Transformers for Edge Computing Applications"
+        authors: "Park H., Kim J., Jeong K."
+        venue: "Conference on Neural Information Processing Systems (NeurIPS), 2023"
         link: "#"
-      - title: "Explainable AI for Medical Diagnosis"
-        authors: "Doe J., Chen J., Wang D."
-        venue: "Nature Machine Intelligence, 2022"
+    
+    # International Journals
+    journals:
+      - title: "A Survey on Pattern Recognition Techniques for Medical Imaging"
+        authors: "Kim J., Lee S., Jeong K., Park H."
+        venue: "IEEE Transactions on Medical Imaging, Vol. 42, No. 5, pp. 1235-1250, 2024"
         link: "#"
-      - title: "Federated Learning: Privacy Preserving Machine Learning"
-        authors: "Johnson E., Smith J., Brown M."
-        venue: "Proceedings of the ACM Conference on Computer and Communications Security, 2022"
+        impact_factor: "11.037"
+        
+      - title: "Robust Feature Extraction Using Self-Supervised Learning"
+        authors: "Lee S., Kim J., Park H."
+        venue: "Pattern Recognition Journal, Vol. 135, pp. 789-801, 2023"
+        link: "#"
+        impact_factor: "8.518"
+        
+      - title: "Explainable AI for Healthcare Applications: Challenges and Solutions"
+        authors: "Park H., Kim J., Lee S."
+        venue: "Nature Machine Intelligence, Vol. 5, pp. 324-336, 2023"
+        link: "#"
+        impact_factor: "25.712"
+    
+    # Challenges
+    challenges:
+      - title: "Multi-Modal Image Segmentation Challenge"
+        team: "Team MLPR (Kim J., Lee S., Park H.)"
+        venue: "Medical Image Computing and Computer Assisted Intervention (MICCAI) Challenge, 2023"
+        link: "#"
+        rank: "1st Place"
+        
+      - title: "Autonomous Driving Perception Challenge"
+        team: "Team Vision (Park H., Kim J., Choi M.)"
+        venue: "IEEE Intelligent Vehicles Symposium, 2023"
+        link: "#"
+        rank: "2nd Place"
+    
+    # Open Archive and Tech Reports
+    archives:
+      - title: "Efficient Training Strategies for Large Language Models"
+        authors: "Kim J., Lee S."
+        venue: "arXiv:2311.12345, 2023"
+        link: "#"
+        
+      - title: "Self-Supervised Pretraining for Computer Vision Tasks"
+        authors: "Lee S., Park H., Kim J."
+        venue: "Technical Report TR-2023-01, 2023"
+        link: "#"
+    
+    # Patents
+    patents:
+      - title: "Method and System for Real-time Object Detection on Edge Devices"
+        inventors: "Kim J., Park H."
+        number: "KR10-2023-0123456"
+        status: "Pending"
+        date: "2023-03-15"
+        link: "#"
+        
+      - title: "Efficient Neural Network Compression Algorithm"
+        inventors: "Lee S., Kim J."
+        number: "US Patent 11,654,321"
+        status: "Granted"
+        date: "2022-08-10"
         link: "#"
 
   contact:
