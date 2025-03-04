@@ -12,42 +12,42 @@ en: &DEFAULT_EN
     text: "연구실 소식 및 공지사항"
     section: notice
     list:
-      - title: "신규 논문 출판"
-        date: "2025-02-25"
-        desc: "우리 연구실의 'AI in Healthcare' 논문이 국제 저널에 게재되었습니다."
+      # - title: "P"
+      #   date: "2025-02-25"
+      #   desc: "우리 연구실의 'AI in Healthcare' 논문이 국제 저널에 게재되었습니다."
+      #   link: "#"
+      - title: "대학원생 & 학부 연구생 연구원 모집"
+        date: "2025-03-04"
+        desc: "딥러닝에 관심 있는 학부생을 모집합니다."
         link: "#"
-      - title: "학부생 연구원 모집"
-        date: "2025-02-15"
-        desc: "머신러닝과 컴퓨터 비전에 관심 있는 학부생을 모집합니다."
-        link: "#"
-      - title: "워크샵 개최 안내"
-        date: "2025-02-10"
-        desc: "3월 15일 AI 기술 동향 워크샵을 개최합니다. 관심 있는 학생들의 참여를 바랍니다."
-        link: "#"
-      - title: "연구비 지원 소식"
-        date: "2025-02-01"
-        desc: "우리 연구실이 새로운 국가 연구 과제에 선정되었습니다."
-        link: "#"
+      # - title: "워크샵 개최 안내"
+      #   date: "2025-02-10"
+      #   desc: "3월 15일 AI 기술 동향 워크샵을 개최합니다. 관심 있는 학생들의 참여를 바랍니다."
+      #   link: "#"
+      # - title: "연구비 지원 소식"
+      #   date: "2025-02-01"
+      #   desc: "우리 연구실이 새로운 국가 연구 과제에 선정되었습니다."
+      #   link: "#"
 
   members:
     title: "OUR TEAM"
     text: "Meet the researchers driving innovation in our lab"
     section: members
     people:
-      - name: "Prof. Jane Doe"
+      - name: "Prof. Jangho Kim"
         id: "jane-doe"
         title: "Lab Director"
         category: "Professor"
-        image: assets/img/team/500x500.jpg
-        hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
+        image: assets/img/team/kjh.jpeg
+        hover_image: assets/img/team/kjh.jpeg  # 이스터에그 이미지
         interests: "Machine Learning, Computer Vision, Natural Language Processing"
-        email: "professor@example.com"
+        email: "jangho.kim@kookmin.ac.kr"
         social:
-          github: https://github.com/
+          github: https://github.com/Jangho-Kim
           linkedin: https://linkedin.com/
           scholar: https://scholar.google.com/
           
-      - name: "John Smith"
+      - name: "Hea Eun Lee"
         id: "john-smith"
         title: "Senior Researcher"
         category: "PhD"
