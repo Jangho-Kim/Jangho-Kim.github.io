@@ -104,7 +104,7 @@
               <div class="member-hover-container">
                 <img class="mx-auto rounded-circle normal-image" src="{{ person.image }}" alt="{{ person.name }}">
                 {% if person.hover_image %}
-                <img class="mx-auto rounded hover-image" src="{{ person.hover_image }}" alt="{{ person.name }} Fun">
+                <img class="mx-auto rounded-circle hover-image" src="{{ person.hover_image }}" alt="{{ person.name }} Fun">
                 {% endif %}
               </div>
               <h4>{{ person.name }}</h4>
@@ -129,7 +129,7 @@
               <div class="member-hover-container">
                 <img class="mx-auto rounded-circle normal-image" src="{{ person.image }}" alt="{{ person.name }}">
                 {% if person.hover_image %}
-                <img class="mx-auto rounded hover-image" src="{{ person.hover_image }}" alt="{{ person.name }} Fun">
+                <img class="mx-auto rounded-circle hover-image" src="{{ person.hover_image }}" alt="{{ person.name }} Fun">
                 {% endif %}
               </div>
               <h4>{{ person.name }}</h4>
@@ -154,7 +154,7 @@
               <div class="member-hover-container">
                 <img class="mx-auto rounded-circle normal-image" src="{{ person.image }}" alt="{{ person.name }}">
                 {% if person.hover_image %}
-                <img class="mx-auto rounded hover-image" src="{{ person.hover_image }}" alt="{{ person.name }} Fun">
+                <img class="mx-auto rounded-circle hover-image" src="{{ person.hover_image }}" alt="{{ person.name }} Fun">
                 {% endif %}
               </div>
               <h4>{{ person.name }}</h4>
@@ -179,7 +179,7 @@
               <div class="member-hover-container">
                 <img class="mx-auto rounded-circle normal-image" src="{{ person.image }}" alt="{{ person.name }}">
                 {% if person.hover_image %}
-                <img class="mx-auto rounded hover-image" src="{{ person.hover_image }}" alt="{{ person.name }} Fun">
+                <img class="mx-auto rounded-circle hover-image" src="{{ person.hover_image }}" alt="{{ person.name }} Fun">
                 {% endif %}
               </div>
               <h4>{{ person.name }}</h4>
@@ -266,10 +266,10 @@
 <!-- End Members -->
 
 <script>
-  $(document).ready(function() {
-    $('.member-card').click(function() {
-      var target = $(this).data('target');
-      $(target).modal('show');
-    });
+$(document).ready(function() {
+  $('.member-card').click(function() {
+    var target = $(this).data('target');
+    $(target).modal('show');
   });
-  </script>
+});
+</script>
