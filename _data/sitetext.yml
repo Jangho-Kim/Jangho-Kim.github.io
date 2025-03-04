@@ -280,9 +280,9 @@ en: &DEFAULT_EN
         rank: "1st Place"
       
       - title: "MicroNet Challenge"
-         team: ""
+        team: ""
         venue: "NeurIPS 2019 - ImageNet domain "
-         link: ""
+        link: ""
         rank: "3rd Place"
 
 
