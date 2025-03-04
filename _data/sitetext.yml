@@ -268,21 +268,21 @@ en: &DEFAULT_EN
     # Challenges
     challenges:
       - title: "Machine unlearning Challenge (2nd place in the competition) - hosted at NeurIPS 2023"
-        # team: "Team MLPR (Kim J., Lee S., Park H.)"
+        team: ""  # 대신 빈 문자열 사용
         venue: "hosted at NeurIPS 2023"
-        # link: "#"
+        link: ""  # 대신 빈 문자열 사용
         rank: "2nd Place"
         
       - title: "Detection and Classification of Acoustic Scenes and Events (DCASE)"
-        # team: "Team Vision (Park H., Kim J., Choi M.)"
+        team: ""
         venue: "hosted at IEEE AASP – Task 1-a"
-        # link: "#"
+        link: ""
         rank: "1st Place"
       
       - title: "MicroNet Challenge"
-        # team: "Team Vision (Park H., Kim J., Choi M.)"
+         team: ""
         venue: "NeurIPS 2019 - ImageNet domain "
-        # link: "#"
+         link: ""
         rank: "3rd Place"
 
 
