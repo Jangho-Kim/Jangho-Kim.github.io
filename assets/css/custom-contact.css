@@ -75,7 +75,7 @@ section#contact h3.section-subheading {
 }
 
 .contact-info a:hover {
-  color: white !important;
+  color: rgba(10, 25, 47, 0.85) !important;
   text-decoration: underline;
 }
 
