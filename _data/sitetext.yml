@@ -94,7 +94,7 @@ en: &DEFAULT_EN
         interests: "Machine Unlearning, Deep Learning, Autonomous Driving"
         email: "master2@example.com"
         social:
-          github: https://github.com/
+          github: https://github.com/hyunjoon0208
           linkedin: https://linkedin.com/
 
       - name: "Taeseong Jeong"
