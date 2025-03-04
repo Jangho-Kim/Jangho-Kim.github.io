@@ -51,8 +51,8 @@ en: &DEFAULT_EN
         id: "john-smith"
         title: ""
         category: "PhD"
-        image: assets/img/team/21.jpg
-        hover_image: assets/img/team/21-fun.jpg  # 이스터에그 이미지
+        image: assets/img/team/500x500.jpg
+        hover_image: assets/img/team/500x500.jpg # 이스터에그 이미지
         interests: "Natural Language Processing"
         email: "phd1@example.com"
         social:
@@ -124,8 +124,8 @@ en: &DEFAULT_EN
         id: "Jongyun Shin"
         title: ""
         category: "Graduated"
-        image: assets/img/team/50x500.jpg
-        hover_image: assets/img/team/50x500-fun.jpg  # 이스터에그 이미지
+        image: assets/img/team/500x500.jpg
+        hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
         interests: "Machine Learning, PEPT, diffusion model"
         social:
           linkedin: https://linkedin.com/
