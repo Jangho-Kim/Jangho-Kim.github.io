@@ -35,17 +35,32 @@ en: &DEFAULT_EN
     section: members
     people:
       - name: "Prof. Jangho Kim"
-        id: "jane-doe"
-        title: ""
+        id: "jangho-kim"
+        title: "Assistant Professor"
         category: "Professor"
         image: assets/img/team/kjh.jpg
-        hover_image: assets/img/team/kjh.jpg  # 이스터에그 이미지
         interests: "Model Compression, Computer Vision, Natural Language Processing"
         email: "jangho.kim@kookmin.ac.kr"
         social:
           github: https://github.com/Jangho-Kim
           linkedin: https://linkedin.com/
           scholar: https://scholar.google.com/
+        education:
+          - "Ph.D., Program in Intelligent Systems, Seoul National University,Korea 2022"
+          - "MS., Computer Science and Engineering,, Pohang University of Science and Technology (POSTECH), Korea 2017"
+          - "BS., Information and Communication Engineering, Cum laude, Dongguk University, Korea 2015"
+        experience:
+          - "Assistant Professor, School of Artificial intelligence, College of Computer science, Kookmin University, Seoul, 2022-Present"
+          - "Research scientist, NAVER WEBTOON AI Research Lab, Pangyo, Jan. 2022 - Aug. 2022"
+          - "Research Intern, Qualcomm AI Research, Seoul, Summer Jul. 2020 - Jul. 2021"
+          - "Research Intern, Qualcomm AI Research, San Diego, CA, Summer Jul. 2019 - Oct. 2019"
+
+        awards:
+          - "Yulchon AI Scholarship (AI Star) 2021"
+          - "1st Rank on Task-1A, Detection and Classification of Acoustic Scenes and Events (DCASE) 2021"
+          - "Graduate sponsorship, Samsung Advanced Institute of Technology (SAIT) 2020 - 2021"
+          - "3rd Rank on ImageNet Classification, MicroNet Challenge Hosted at NeurIPS 2019 2019"
+
           
       - name: "Hea Eun Lee"
         id: "john-smith"

@@ -1,0 +1,95 @@
+/* 교수님 섹션 스타일 */
+.professor-profile {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 50px;
+    transition: all 0.3s ease;
+  }
+  
+  .professor-profile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  .professor-image-container {
+    text-align: center;
+  }
+  
+  .professor-image-container img {
+    max-width: 100%;
+    border: 4px solid rgba(10, 25, 47, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .professor-image-container h4 {
+    margin-top: 20px;
+    color: var(--navy-dark);
+    font-weight: 700;
+  }
+  
+  .professor-bio h5 {
+    color: var(--navy-dark);
+    border-bottom: 2px solid var(--navy-medium);
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+  
+  .professor-bio p {
+    color: var(--navy-dark);
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .professor-bio ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .professor-bio ul li {
+    margin-bottom: 8px;
+    color: var(--navy-dark);
+  }
+  
+  .professor-social {
+    margin-top: 20px;
+  }
+  
+  .professor-social .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--navy-dark);
+    color: white;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .professor-social .social-icon:hover {
+    background-color: var(--navy-medium);
+    transform: translateY(-3px);
+  }
+  
+  /* placeholder 텍스트 제거 */
+  .placeholder, .placeholder-text, placeholder {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+  }
+  
+  /* 메인 헤더 이미지에 "placeholder" 텍스트 제거 */
+  header.masthead .intro-text .intro-heading:after,
+  header.masthead .intro-text:after {
+    content: none !important;
+  }
+  
+  .intro-text img, 
+  img[alt="placeholder"], 
+  .placeholder img {
+    display: none !important;
+  }
