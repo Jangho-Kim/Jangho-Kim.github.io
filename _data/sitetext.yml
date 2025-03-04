@@ -135,16 +135,16 @@ en: &DEFAULT_EN
         social:
           github: https://github.com/
 
-      - name: "Sungyeop Jeong"
+      - name: "Sungyeop Jung"
         id: "Sungyeop-Jeong"
         title: ""
         category: "Undergraduate"
         image: assets/img/team/500x500.jpg
         hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
-        interests: "Model Quantization"
-        email: "undergrad1@example.com"
+        interests: "Model compression"
+        email: "jshjsy01@kookmin.ac.kr"
         social:
-          github: https://github.com/
+          github: https://github.com/kmu-jungsy
           
       - name: "Jongyun Shin"
         id: "Jongyun-Shin"
