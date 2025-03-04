@@ -127,6 +127,17 @@ en: &DEFAULT_EN
       - name: "Jinwoo Jeong"
         id: "Jinwoo-Jeong"
         title: ""
+        category: "Master"
+        image: assets/img/team/500x500.jpg
+        hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
+        interests: "Model Quantization"
+        email: "undergrad1@example.com"
+        social:
+          github: https://github.com/
+
+      - name: "Sungyeop Jeong"
+        id: "Sungyeop-Jeong"
+        title: ""
         category: "Undergraduate"
         image: assets/img/team/500x500.jpg
         hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
