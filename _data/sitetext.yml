@@ -124,8 +124,8 @@ en: &DEFAULT_EN
           github: https://github.com/Topadonijah
           linkedin: https://linkedin.com/
           
-      - name: "Jinwoo Jeong"
-        id: "Jinwoo-Jeong"
+      - name: "Jinwoo Chung"
+        id: "Jinwoo-Chung"
         title: ""
         category: "Master"
         image: assets/img/team/500x500.jpg
