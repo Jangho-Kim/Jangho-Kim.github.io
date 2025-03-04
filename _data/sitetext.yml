@@ -132,82 +132,159 @@ en: &DEFAULT_EN
     
     # International Conferences and Workshops
     conferences:
-      - title: "Deep Learning for Computer Vision: A Comprehensive Approach"
-        authors: "Kim J., Lee S., Park H."
-        venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024"
-        link: "#"
-        awards: "Best Paper Award"
+      - title: "Cooperative Meta-Learning with Gradient Augmentation"
+        authors: "Jongyun Shin, Seunjin Han, Jangho Kim"
+        venue: "The 40th Conference on Uncertainty in Artificial Intelligence  (UAI 2024) (BK21+ 사업 선정 우수학술대회)"
+        link: "https://arxiv.org/abs/2406.04639"
         
-      - title: "Novel Attention Mechanisms for Visual Recognition Tasks"
-        authors: "Lee S., Kim J., Choi M."
-        venue: "International Conference on Machine Learning (ICML), 2023"
-        link: "#"
+      - title: "Finding Efficient Pruned Network via Refined Gradients for Pruned Weights"
+        authors: "Jangho Kim, Jayeon Yoo*, Yeji Song*, KiYoon Yoo, Nojun Kwak (* equal contribution)"
+        venue: "The 31st ACM International Conference on Multimedia  (ACM MM 2023) (BK21+ 사업 선정 우수학술대회)"
+        link: "https://arxiv.org/abs/2109.04660"
         
-      - title: "Efficient Transformers for Edge Computing Applications"
-        authors: "Park H., Kim J., Jeong K."
-        venue: "Conference on Neural Information Processing Systems (NeurIPS), 2023"
-        link: "#"
+      - title: "Self-Distilled Self-Supervised Representation Learning "
+        authors: "Jiho Jang, KiYoon Yoo, Seonhoon Kim, Chaerin Kong, Jangho Kim, Nojun Kwak "
+        venue: "Winter Conference on Applications of Computer Vision 2023 (WACV 2023)"
+        link: "https://openaccess.thecvf.com/content/WACV2023/papers/Jang_Self-Distilled_Self-Supervised_Representation_Learning_WACV_2023_paper.pdf"
+
+      - title: "Domain Generalization with Relaxed Instance Frequency-wise Normalization for Multi-device Acoustic Scene Classification"
+        authors: "Byeonggeun Kim, Seunghan Yang, Jangho Kim, Hyunsin Park, Juntae Lee, Simyung Chang"
+        venue: "The 23nd Annual Conference of the International Speech Communication Association (InterSpeech 2022), Incheon, korea (한국정보과학회 선정 우수학술대회)"
+        link: "https://arxiv.org/abs/2206.12513"
+
+      - title: "Variational On-the-Fly Personalization"
+        authors: "Jangho Kim*, Jun-Tae Lee*, Simyung Chang, Nojun Kwak (* equal contribution)"
+        venue: "The Thirty-ninth International Conference on Machine Learning (ICML 2022), July 2022 (BK21+ 사업 선정 우수학술대회)"
+        link: "https://proceedings.mlr.press/v162/kim22e.html"
+      
+      - title: "Detection of Word Adversarial Examples in Text Classification: Benchmark and Baseline via Robust Density Estimation"
+        authors: "KiYoon Yoo, Jangho Kim, Jiho Jang, Nojun Kwak"
+        venue: "Findings of ACL 2022 (BK21+ 사업 선정 우수학술대회)"
+        link: "https://aclanthology.org/2022.findings-acl.289/"
+      
+      - title: "Vehicle Image Generation Going Well With the Surroundings "
+        authors: "Jeesoo Kim*, Jangho Kim*, Jaeyoung Yoo, Daesik Kim, Nojun Kwak (* equal contribution)"
+        venue: "28th International Conference on Neural Information Processing (ICONIP 2021), Dec. 2021"
+        link: "https://arxiv.org/abs/1807.02925"
+      
+      - title: "Domain Generalization of Efficient Acoustic Scene Classification using Residual Normalization"
+        authors: "Byeonggeun Kim, Seunghan Yang, Jangho Kim, Simyung Chang"
+        venue: " IEEE AASP Challenge on Detection and Classification of Acoustic Scenes and Events (DCASE) Workshop, Nov. 2021"
+        link: "https://arxiv.org/abs/2111.06531"
+      
+      - title: "PQK: Model Compression via Pruning, Quantization, and Knowledge Distillation"
+        authors: "Jangho Kim, Simyung Chang, Nojun Kwak"
+        venue: "The 22nd Annual Conference of the International Speech Communication Association (InterSpeech 2021), Aug 2021, Brno, Czech Republic (한국정보과학회 선정 우수학술대회)"
+        link: "https://arxiv.org/abs/2106.14681"
+      
+      - title: "Prototype-based Personalized Pruning"
+        authors: "Jangho Kim, Simyung Chang, Sungrack Yun, Nojun Kwak"
+        venue: "2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2021), June. 2021, online"
+        link: "https://arxiv.org/abs/2103.15564"
+
+      - title: "Position-based Scaled Gradient for Model Quantization and Sparse Training"
+        authors: "Jangho Kim, KiYoon Yoo, Nojun Kwak"
+        venue: " Thirty-fourth Conference on Neural Information Processing Systems (NeurIPS 2020), Dec. 2020, online (BK21+ 사업 선정 우수학술대회)"
+        link: "https://arxiv.org/abs/2005.11035"
+
+      - title: "Feature Fusion for Online Mutual Knowledge Distillation"
+        authors: "Jangho Kim, Minsung Hyun, Inseop Chung, Nojun Kwak "
+        venue: "25th International Conference on Pattern Recognition (ICPR 2020), Milan, Italy, Jan. 2021 (BK21+ 사업 선정 우수학술대회)"
+        link: "https://arxiv.org/abs/1904.09058"
+
+      - title: "Feature-map-level Online Adversarial Knowledge Distillation"
+        authors: "Inseop Chung, SeongUk Park, Jangho Kim, Nojun Kwak"
+        venue: "Thirty-seventh International Conference on Machine Learning (ICML 2020), July 2020, Online (BK21+ 사업 선정 우수학술대회)"
+        link: "https://arxiv.org/abs/2002.01775"
+
+      - title: StackNet: "Stacking Parameters for Continual learning"
+        authors: "Jangho Kim*, Jeesoo Kim*, Nojun Kwak (* equal contribution)"
+        venue: "CVPR 2020 Workshop on Continual Learning in Computer Vision, June 2020, Seattle WA (Online)"
+        link: "https://arxiv.org/abs/1809.02441"
+
+      - title: "Paraphrasing Complex Network: Network Compression via Factor Transfer"
+        authors: "Jangho Kim, SeoungUK Park, Nojun Kwak"
+        venue: "Thirty-second Conference on Neural Information Processing Systems (NeurIPS 2018), Montreal, Canada, Dec. 2018 (BK21+ 사업 선정 우수학술대회)"
+        link: "https://arxiv.org/abs/1802.04977"
+
+      - title: "Detecting Korean characters in natural scenes by alphabet detection and agglomerative character construction"
+        authors: "Jangho Kim, Yong-Joong Kim, Yonghyun Kim, Daijin Kim"
+        venue: "IEEE International Conference on Systems, Man, and Cybernetics 2016 (SMC 2016) (한국정보과학회 선정 우수학술대회)"
+        link: "https://ieeexplore.ieee.org/document/7844828"
+
+
+
     
     # International Journals
     journals:
-      - title: "A Survey on Pattern Recognition Techniques for Medical Imaging"
-        authors: "Kim J., Lee S., Jeong K., Park H."
-        venue: "IEEE Transactions on Medical Imaging, Vol. 42, No. 5, pp. 1235-1250, 2024"
-        link: "#"
-        impact_factor: "11.037"
+      - title: "Quantization Robust Pruning With Knowledge Distillation"
+        authors: "Jangho Kim"
+        venue: "IEEE Access, vol. 11, pp. 26419 - 26426, March 2023"
+        link: "https://ieeexplore.ieee.org/document/10072406"
         
-      - title: "Robust Feature Extraction Using Self-Supervised Learning"
-        authors: "Lee S., Kim J., Park H."
-        venue: "Pattern Recognition Journal, Vol. 135, pp. 789-801, 2023"
-        link: "#"
-        impact_factor: "8.518"
+      - title: "Model Compression via Position-Based Scaled Gradient"
+        authors: "Jangho Kim, KiYoon Yoo, Nojun Kwak"
+        venue: "IEEE Access, vol. 10, pp. 133828 - 133841, Dec. 2022"
+        link: "https://ieeexplore.ieee.org/document/9996406"
         
-      - title: "Explainable AI for Healthcare Applications: Challenges and Solutions"
-        authors: "Park H., Kim J., Lee S."
-        venue: "Nature Machine Intelligence, Vol. 5, pp. 324-336, 2023"
-        link: "#"
-        impact_factor: "25.712"
-    
     # Challenges
     challenges:
-      - title: "Multi-Modal Image Segmentation Challenge"
-        team: "Team MLPR (Kim J., Lee S., Park H.)"
-        venue: "Medical Image Computing and Computer Assisted Intervention (MICCAI) Challenge, 2023"
-        link: "#"
-        rank: "1st Place"
-        
-      - title: "Autonomous Driving Perception Challenge"
-        team: "Team Vision (Park H., Kim J., Choi M.)"
-        venue: "IEEE Intelligent Vehicles Symposium, 2023"
-        link: "#"
+      - title: "Machine unlearning Challenge (2nd place in the competition) - hosted at NeurIPS 2023"
+        # team: "Team MLPR (Kim J., Lee S., Park H.)"
+        venue: "hosted at NeurIPS 2023"
+        # link: "#"
         rank: "2nd Place"
-    
+        
+      - title: "Detection and Classification of Acoustic Scenes and Events (DCASE)"
+        # team: "Team Vision (Park H., Kim J., Choi M.)"
+        venue: "hosted at IEEE AASP – Task 1-a"
+        # link: "#"
+        rank: "1st Place"
+      
+      - title: "MicroNet Challenge"
+        # team: "Team Vision (Park H., Kim J., Choi M.)"
+        venue: "NeurIPS 2019 - ImageNet domain "
+        # link: "#"
+        rank: "3rd Place"
+
+
     # Open Archive and Tech Reports
     archives:
-      - title: "Efficient Training Strategies for Large Language Models"
-        authors: "Kim J., Lee S."
-        venue: "arXiv:2311.12345, 2023"
-        link: "#"
+      - title: "QTI Submission to DCASE 2021: Residual Normalization for Device-Imbalanced Acoustic Scene Classification with Efficient Design"
+        authors: "Byeonggeun Kim, Seunghan Yang, Jangho Kim, Simyung Chang"
+        venue: "IEEE AASP Challenge on Detection and Classification of Acoustic Scenes and Events (DCASE), Jul. 2021"
+        link: "https://arxiv.org/abs/2206.13909"
         
-      - title: "Self-Supervised Pretraining for Computer Vision Tasks"
-        authors: "Lee S., Park H., Kim J."
-        venue: "Technical Report TR-2023-01, 2023"
-        link: "#"
+      - title: "QKD: Quantization-aware Knowledge Distillation"
+        authors: "Jangho Kim*, Yash Bhalgat*, Jinwon Lee, Chirag Patel, Nojun Kwak (* equal contribution)"
+        venue: "arXiv, Nov. 2019."
+        link: "https://arxiv.org/abs/1911.12491"
     
     # Patents
+    # Patents
     patents:
-      - title: "Method and System for Real-time Object Detection on Edge Devices"
-        inventors: "Kim J., Park H."
-        number: "KR10-2023-0123456"
-        status: "Pending"
-        date: "2023-03-15"
+      - title: "Residual normalization for improved neural network classifications"
+        inventors: "Byeonggeun Kim, Simyung Chang, Jangho Kim, YANG Seunghan, Kyu Woong Hwang"
+        number: "US Patent App. 17/807,479"
+        status: "Granted"
+        link: "#" # 실제 특허 링크가 있다면 여기에 추가
+        
+      - title: "Bayesian personalization"
+        inventors: "Jangho Kim, Juntae Lee, Simyung Chang"
+        number: "US Patent App. 17/824,832"
+        status: "Granted"
         link: "#"
         
-      - title: "Efficient Neural Network Compression Algorithm"
-        inventors: "Lee S., Kim J."
-        number: "US Patent 11,654,321"
+      - title: "MODEL COMPRESSION USING PRUNING QUANTIZATION AND KNOWLEDGE DISTILLATION"
+        inventors: "Jangho Kim, Simyung Chang, Hyunsin Park, Juntae Lee, Jaewon Choi, Kyu Woong Hwang"
+        number: "US Patent App. 17/705,248"
         status: "Granted"
-        date: "2022-08-10"
+        link: "#"
+        
+      - title: "Personalized neural network pruning"
+        inventors: "Simyung Chang, Jangho Kim, PARK Hyunsin, LEE Juntae, Jaewon Choi, Kyu Woong Hwang"
+        number: "US Patent App. 17/506,646" 
+        status: "Granted"
         link: "#"
 
   contact:
