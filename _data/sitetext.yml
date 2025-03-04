@@ -275,7 +275,7 @@ en: &DEFAULT_EN
         
       - title: "Detection and Classification of Acoustic Scenes and Events (DCASE)"
         team: ""
-        venue: "hosted at IEEE AASP – Task 1-a"
+        venue: "hosted at IEEE AASP - Task 1-a"
         link: ""
         rank: "1st Place"
       
@@ -305,25 +305,21 @@ en: &DEFAULT_EN
         inventors: "Byeonggeun Kim, Simyung Chang, Jangho Kim, YANG Seunghan, Kyu Woong Hwang"
         number: "US Patent App. 17/807,479"
         status: "Granted"
-        link: "#" # 실제 특허 링크가 있다면 여기에 추가
         
       - title: "Bayesian personalization"
         inventors: "Jangho Kim, Juntae Lee, Simyung Chang"
         number: "US Patent App. 17/824,832"
         status: "Granted"
-        link: "#"
         
       - title: "MODEL COMPRESSION USING PRUNING QUANTIZATION AND KNOWLEDGE DISTILLATION"
         inventors: "Jangho Kim, Simyung Chang, Hyunsin Park, Juntae Lee, Jaewon Choi, Kyu Woong Hwang"
         number: "US Patent App. 17/705,248"
         status: "Granted"
-        link: "#"
         
       - title: "Personalized neural network pruning"
         inventors: "Simyung Chang, Jangho Kim, PARK Hyunsin, LEE Juntae, Jaewon Choi, Kyu Woong Hwang"
         number: "US Patent App. 17/506,646" 
         status: "Granted"
-        link: "#"
 
   contact:
     title: "Contact Us"
