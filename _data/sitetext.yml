@@ -36,11 +36,11 @@ en: &DEFAULT_EN
     people:
       - name: "Prof. Jangho Kim"
         id: "jane-doe"
-        title: "Lab Director"
+        title: ""
         category: "Professor"
-        image: assets/img/team/kjh.jpeg
-        hover_image: assets/img/team/kjh.jpeg  # 이스터에그 이미지
-        interests: "Machine Learning, Computer Vision, Natural Language Processing"
+        image: assets/img/team/kjh.jpg
+        hover_image: assets/img/team/kjh.jpg  # 이스터에그 이미지
+        interests: "Model Compression, Computer Vision, Natural Language Processing"
         email: "jangho.kim@kookmin.ac.kr"
         social:
           github: https://github.com/Jangho-Kim
@@ -49,72 +49,95 @@ en: &DEFAULT_EN
           
       - name: "Hea Eun Lee"
         id: "john-smith"
-        title: "Senior Researcher"
+        title: ""
         category: "PhD"
-        image: assets/img/team/2.jpg
-        hover_image: assets/img/team/2-fun.jpg  # 이스터에그 이미지
-        interests: "Reinforcement Learning, Robotics"
+        image: assets/img/team/500x500.jpg
+        hover_image: assets/img/team/500x500.jpg # 이스터에그 이미지
+        interests: "Natural Language Processing"
         email: "phd1@example.com"
         social:
           github: https://github.com/
           linkedin: https://linkedin.com/
           scholar: https://scholar.google.com/
           
-      - name: "Emily Johnson"
-        id: "emily-johnson"
-        title: "PhD Candidate"
-        category: "PhD"
-        image: assets/img/team/500x500.jpg
-        hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
-        interests: "Deep Learning, Healthcare Applications"
-        email: "phd2@example.com"
-        social:
-          github: https://github.com/
-          linkedin: https://linkedin.com/
-          scholar: https://scholar.google.com/
+      # - name: "Emily Johnson"
+      #   id: "emily-johnson"
+      #   title: "PhD Candidate"
+      #   category: "PhD"
+      #   image: assets/img/team/500x500.jpg
+      #   hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
+      #   interests: "Deep Learning, Healthcare Applications"
+      #   email: "phd2@example.com"
+      #   social:
+      #     github: https://github.com/
+      #     linkedin: https://linkedin.com/
+      #     scholar: https://scholar.google.com/
           
-      - name: "Michael Brown"
-        id: "michael-brown"
-        title: "Research Assistant"
+      - name: "Sangho An"
+        id: "Sangho An"
+        title: ""
         category: "Master"
-        image: assets/img/team/500x500.jpg
-        hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
-        interests: "Data Mining, Social Network Analysis"
-        email: "master1@example.com"
+        image: assets/img/team/ash.jpeg
+        hover_image: assets/img/team/ash.jpeg  # 이스터에그 이미지
+        interests: "Deep Learning, Model Pruning, Quantization"
+        email: "do753951@kookmin.ac.kr"
         social:
-          github: https://github.com/
+          github: https://github.com/ahnho
           linkedin: https://linkedin.com/
       
-      - name: "Sarah Lee"
-        id: "sarah-lee"
-        title: "Research Assistant"
+      - name: "Hyunjoon Cho"
+        id: "Hyunjoon Cho"
+        title: ""
         category: "Master"
-        image: assets/img/team/500x500.jpg
-        hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
-        interests: "Computer Vision, Image Processing"
+        image: assets/img/team/jyj.jpeg
+        hover_image: assets/img/team/jyj.jpeg  # 이스터에그 이미지
+        interests: "Machine Unlearning, Deep Learning, Autonomous Driving"
         email: "master2@example.com"
         social:
-          github: https://github.com/
+          github: https://github.com/hyunjoon0208
+          linkedin: https://linkedin.com/
+
+      - name: "Taeseong Jeong"
+        id: "Taeseong Jeong"
+        title: ""
+        category: "Master"
+        image: assets/img/team/jts.jpeg
+        hover_image: assets/img/team/jts.jpeg  # 이스터에그 이미지
+        interests: "generative model, diffusion model"
+        email: "tasong12@kookmin.ac.kr"
+        social:
+          github: https://github.com/Topadonijah
           linkedin: https://linkedin.com/
           
-      - name: "David Wang"
-        id: "david-wang"
-        title: "Research Intern"
+      - name: "Jinwoo Jeong"
+        id: "Jinwoo Jeong"
+        title: ""
         category: "Undergraduate"
         image: assets/img/team/500x500.jpg
         hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
-        interests: "Web Development, Frontend Technologies"
+        interests: "Model Quantization"
         email: "undergrad1@example.com"
         social:
           github: https://github.com/
           
-      - name: "Jessica Chen"
-        id: "jessica-chen"
-        title: "Alumni - Senior Engineer at Google"
+      - name: "Jongyun Shin"
+        id: "Jongyun Shin"
+        title: ""
         category: "Graduated"
         image: assets/img/team/500x500.jpg
         hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
-        interests: "Machine Learning, AI Ethics"
+        interests: "Machine Learning, PEPT, diffusion model"
+        social:
+          linkedin: https://linkedin.com/
+          scholar: https://scholar.google.com/
+
+      - name: "Jinwoo Kim"
+        id: "Jinwoo Kim"
+        title: ""
+        category: "Graduated"
+        image: assets/img/team/500x500.jpg
+        hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
+        interests: "Machine Learning, Model Compression"
         social:
           linkedin: https://linkedin.com/
           scholar: https://scholar.google.com/
