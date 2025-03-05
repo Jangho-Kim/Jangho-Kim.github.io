@@ -66,14 +66,14 @@ en: &DEFAULT_EN
         id: "john-smith"
         title: ""
         category: "PhD"
-        image: assets/img/team/500x500.jpg
-        hover_image: assets/img/team/500x500.jpg # 이스터에그 이미지
+        image: assets/img/team/lhe.jpeg
+        hover_image: assets/img/team/lhe.jpeg # 이스터에그 이미지
         interests: "Natural Language Processing"
-        email: "phd1@example.com"
+        email: "helee@kookmin.ac.kr"
         social:
-          github: https://github.com/
+          # github: https://github.com/
           linkedin: https://linkedin.com/
-          scholar: https://scholar.google.com/
+          scholar: https://scholar.google.com/citations?user=rT81JKUAAAAJ&hl=ko&oi=ao
           
       # - name: "Emily Johnson"
       #   id: "emily-johnson"
