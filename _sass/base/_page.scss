@@ -70,6 +70,18 @@ img::-moz-selection {
   background: transparent;
 }
 
+// Banner section
+.banner-section {
+  width: 100%;
+  overflow: hidden;
+
+  .banner-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
 // Publication styles
 .publication-year-header {
   font-size: 1.5rem;
