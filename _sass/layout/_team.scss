@@ -68,12 +68,32 @@
   }
 }
 
-// Member social CV text style
+// Member social icons style
 .member-social {
-  .social-icon.cv-text {
-    font-size: 0.8rem;
-    font-weight: 700;
+  .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    margin: 0 5px;
+    font-size: 1.2rem;
+    color: #555;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    transition: all 0.3s ease;
     text-decoration: none;
+
+    &:hover {
+      color: $primary;
+      border-color: $primary;
+      text-decoration: none;
+    }
+
+    &.cv-text {
+      font-size: 0.75rem;
+      font-weight: 700;
+    }
   }
 }
 
