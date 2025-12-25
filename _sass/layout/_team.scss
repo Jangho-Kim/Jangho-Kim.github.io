@@ -52,11 +52,18 @@
     border: 2px solid #ddd;
     border-radius: 50%;
     transition: all 0.3s ease;
+    text-decoration: none;
 
     &:hover {
       color: $primary;
       border-color: $primary;
       transform: translateY(-3px);
+      text-decoration: none;
+    }
+
+    &.cv-icon {
+      font-size: 1rem;
+      font-weight: 700;
     }
   }
 }

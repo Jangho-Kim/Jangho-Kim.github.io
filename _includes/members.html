@@ -52,8 +52,8 @@
                 </a>
                 {% endif %}
                 {% if person.social.cv %}
-                <a href="{{ person.social.cv }}" class="social-icon-large" target="_blank" title="CV">
-                  <i class="fas fa-file-alt"></i>
+                <a href="{{ person.social.cv }}" class="social-icon-large cv-icon" target="_blank" title="CV">
+                  <span>CV</span>
                 </a>
                 {% endif %}
                 {% if person.social.linkedin %}
@@ -77,7 +77,7 @@
     <div class="row">
       {% for person in site.data.sitetext[site.locale].members.people %}
         {% if person.category == "PhD" %}
-          <div class="col-md-4 text-center">
+          <div class="col-lg-3 col-md-4 col-sm-6 text-center">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="{{ person.name }}">
               <h4 class="mt-3">{{ person.name }}</h4>
@@ -111,7 +111,7 @@
     <div class="row">
       {% for person in site.data.sitetext[site.locale].members.people %}
         {% if person.category == "Master" %}
-        <div class="col-md-4 text-center">
+        <div class="col-lg-3 col-md-4 col-sm-6 text-center">
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="{{ person.name }}">
             <h4 class="mt-3">{{ person.name }}</h4>
@@ -145,7 +145,7 @@
     <div class="row">
       {% for person in site.data.sitetext[site.locale].members.people %}
         {% if person.category == "Undergraduate" %}
-        <div class="col-md-4 text-center">
+        <div class="col-lg-3 col-md-4 col-sm-6 text-center">
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="{{ person.name }}">
             <h4 class="mt-3">{{ person.name }}</h4>

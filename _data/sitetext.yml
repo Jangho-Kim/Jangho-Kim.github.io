@@ -24,7 +24,7 @@ en: &DEFAULT_EN
           github: https://github.com/Jangho-Kim
           #linkedin: https://linkedin.com/
           scholar: https://scholar.google.com/
-          # cv: assets/cv/professor_cv.pdf  # CV 링크 예시
+          cv: assets/cv/jangho_kim_cv.pdf  # PDF 파일명 수정 가능
         education:
           - "Ph.D., Program in Intelligent Systems, Seoul National University,Korea 2022"
           - "MS., Computer Science and Engineering,, Pohang University of Science and Technology (POSTECH), Korea 2017"
