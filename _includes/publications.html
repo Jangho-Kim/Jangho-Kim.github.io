@@ -23,6 +23,9 @@
             <a class="nav-link" id="challenges-tab" data-toggle="tab" href="#challenges" role="tab" aria-controls="challenges" aria-selected="false">Challenges</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" id="underreview-tab" data-toggle="tab" href="#underreview" role="tab" aria-controls="underreview" aria-selected="false">Under Review</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" id="archives-tab" data-toggle="tab" href="#archives" role="tab" aria-controls="archives" aria-selected="false">Open Archive and Tech Reports</a>
           </li>
           <li class="nav-item">
@@ -89,7 +92,18 @@
             {% endfor %}
             </ul>
           </div>
-          
+
+          <!-- Under Review Tab -->
+          <div class="tab-pane fade" id="underreview" role="tabpanel" aria-labelledby="underreview-tab">
+            {% for paper in site.data.sitetext[site.locale].publications.under_review %}
+              <div class="publication-item">
+                <h4 class="publication-title">{{ paper.title }}</h4>
+                <p class="publication-authors">{{ paper.authors }}</p>
+                <p class="publication-venue text-muted"><em>{{ paper.venue }}</em></p>
+              </div>
+            {% endfor %}
+          </div>
+
           <!-- Archives Tab -->
           <div class="tab-pane fade" id="archives" role="tabpanel" aria-labelledby="archives-tab">
             {% assign current_year = "" %}

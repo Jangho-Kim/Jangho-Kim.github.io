@@ -366,6 +366,14 @@ en: &DEFAULT_EN
         link: ""
         rank: "3rd Place"
 
+    # Under Review
+    under_review:
+      - title: "논문 제목 예시"
+        authors: "저자1, 저자2, 저자3"
+        venue: "(Under Review)"
+      # - title: "다른 논문 제목"
+      #   authors: "저자1, 저자2"
+      #   venue: "다른 학회명 (Under Review)"
 
     # Open Archive and Tech Reports
     archives:
