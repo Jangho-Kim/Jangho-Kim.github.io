@@ -38,34 +38,40 @@
         <div class="tab-content" id="publicationTabContent">
           <!-- Conferences Tab -->
           <div class="tab-pane fade show active" id="conferences" role="tabpanel" aria-labelledby="conferences-tab">
-            <ul class="publications-list">
+            {% assign current_year = "" %}
             {% for paper in site.data.sitetext[site.locale].publications.conferences %}
-              <li class="publication-item">
+              {% if paper.year != current_year %}
+                {% assign current_year = paper.year %}
+                <h3 class="publication-year-header">{{ current_year }}</h3>
+              {% endif %}
+              <div class="publication-item">
                 <h4 class="publication-title">
                   {% if paper.link %}<a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}
                 </h4>
                 <p class="publication-authors">{{ paper.authors }}</p>
                 <p class="publication-venue text-muted"><em>{{ paper.venue }}</em></p>
                 {% if paper.awards %}<p class="publication-awards"><strong>{{ paper.awards }}</strong></p>{% endif %}
-              </li>
+              </div>
             {% endfor %}
-            </ul>
           </div>
           
           <!-- Journals Tab -->
           <div class="tab-pane fade" id="journals" role="tabpanel" aria-labelledby="journals-tab">
-            <ul class="publications-list">
+            {% assign current_year = "" %}
             {% for paper in site.data.sitetext[site.locale].publications.journals %}
-              <li class="publication-item">
+              {% if paper.year != current_year %}
+                {% assign current_year = paper.year %}
+                <h3 class="publication-year-header">{{ current_year }}</h3>
+              {% endif %}
+              <div class="publication-item">
                 <h4 class="publication-title">
                   {% if paper.link %}<a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}
                 </h4>
                 <p class="publication-authors">{{ paper.authors }}</p>
                 <p class="publication-venue text-muted"><em>{{ paper.venue }}</em></p>
                 {% if paper.impact_factor %}<p class="publication-impact">Impact Factor: {{ paper.impact_factor }}</p>{% endif %}
-              </li>
+              </div>
             {% endfor %}
-            </ul>
           </div>
           
           <!-- Challenges Tab -->
@@ -86,17 +92,20 @@
           
           <!-- Archives Tab -->
           <div class="tab-pane fade" id="archives" role="tabpanel" aria-labelledby="archives-tab">
-            <ul class="publications-list">
+            {% assign current_year = "" %}
             {% for paper in site.data.sitetext[site.locale].publications.archives %}
-              <li class="publication-item">
+              {% if paper.year != current_year %}
+                {% assign current_year = paper.year %}
+                <h3 class="publication-year-header">{{ current_year }}</h3>
+              {% endif %}
+              <div class="publication-item">
                 <h4 class="publication-title">
                   {% if paper.link %}<a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}
                 </h4>
                 <p class="publication-authors">{{ paper.authors }}</p>
                 <p class="publication-venue text-muted"><em>{{ paper.venue }}</em></p>
-              </li>
+              </div>
             {% endfor %}
-            </ul>
           </div>
           
           <!-- Patents Tab -->
