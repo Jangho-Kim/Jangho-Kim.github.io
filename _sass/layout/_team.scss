@@ -68,6 +68,15 @@
   }
 }
 
+// Member social CV text style
+.member-social {
+  .social-icon.cv-text {
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-decoration: none;
+  }
+}
+
 // Graduated members card style
 .graduated-card {
   background-color: #f8f9fa;
