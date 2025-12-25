@@ -137,6 +137,39 @@ en: &DEFAULT_EN
         social:
           github: https://github.com/
 
+      - name: "Solhee Hwang"
+        id: "Solhee Hwang"
+        title: ""
+        category: "Undergraduate"
+        image: assets/img/team/500x500.jpg
+        hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
+        interests: "Model compression"
+        email: "jshjsy01@kookmin.ac.kr"
+        social:
+          github: https://github.com/
+
+      - name: "Choripinska Veronica"
+        id: "Choripinska Veronica"
+        title: ""
+        category: "Undergraduate"
+        image: assets/img/team/500x500.jpg
+        hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
+        interests: "Model compression"
+        email: "jshjsy01@kookmin.ac.kr"
+        social:
+          github: https://github.com/
+
+      - name: "Jiwong Yang"
+        id: "Jiwong Yang"
+        title: ""
+        category: "Undergraduate"
+        image: assets/img/team/500x500.jpg
+        hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
+        interests: "Model compression"
+        email: "jshjsy01@kookmin.ac.kr"
+        social:
+          github: https://github.com/
+
       - name: "Sungyeop Jung"
         id: "Sungyeop-Jeong"
         title: ""
@@ -150,6 +183,7 @@ en: &DEFAULT_EN
           
       - name: "Jongyun Shin"
         id: "Jongyun-Shin"
+        company: "HYUNDAI MOBIS"
         title: ""
         category: "Graduated"
         image: assets/img/team/500x500.jpg
