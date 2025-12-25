@@ -43,8 +43,9 @@ en: &DEFAULT_EN
         email: "jangho.kim@kookmin.ac.kr"
         social:
           github: https://github.com/Jangho-Kim
-          linkedin: https://linkedin.com/
+          #linkedin: https://linkedin.com/
           scholar: https://scholar.google.com/
+          # cv: assets/cv/professor_cv.pdf  # CV 링크 예시
         education:
           - "Ph.D., Program in Intelligent Systems, Seoul National University,Korea 2022"
           - "MS., Computer Science and Engineering,, Pohang University of Science and Technology (POSTECH), Korea 2017"
@@ -72,7 +73,7 @@ en: &DEFAULT_EN
         email: "helee@kookmin.ac.kr"
         social:
           # github: https://github.com/
-          linkedin: https://linkedin.com/
+          #linkedin: https://linkedin.com/
           scholar: https://scholar.google.com/citations?user=rT81JKUAAAAJ&hl=ko&oi=ao
           
       # - name: "Emily Johnson"
@@ -85,7 +86,7 @@ en: &DEFAULT_EN
       #   email: "phd2@example.com"
       #   social:
       #     github: https://github.com/
-      #     linkedin: https://linkedin.com/
+      #     #linkedin: https://linkedin.com/
       #     scholar: https://scholar.google.com/
           
       - name: "Sangho An"
@@ -94,11 +95,12 @@ en: &DEFAULT_EN
         category: "Master"
         image: assets/img/team/ash.jpeg
         hover_image: assets/img/team/ash.jpeg  # 이스터에그 이미지
-        interests: "Deep Learning, Model Pruning, Quantization"
+        interests: "Deep Learning, Model Compression , Model Pruning, Quantization"
         email: "do753951@kookmin.ac.kr"
         social:
+          scholar: https://scholar.google.com/citations?user=hc7Bw0UAAAAJ&hl=ko
           github: https://github.com/ahnho
-          linkedin: https://linkedin.com/
+          #linkedin: https://linkedin.com/
       
       - name: "Hyunjoon Cho"
         id: "Hyunjoon-Cho"
@@ -110,7 +112,7 @@ en: &DEFAULT_EN
         email: "master2@example.com"
         social:
           github: https://github.com/hyunjoon0208
-          linkedin: https://linkedin.com/
+          #linkedin: https://linkedin.com/
 
       - name: "Taeseong Jeong"
         id: "Taeseong-Jeong"
@@ -122,7 +124,7 @@ en: &DEFAULT_EN
         email: "tasong12@kookmin.ac.kr"
         social:
           github: https://github.com/Topadonijah
-          linkedin: https://linkedin.com/
+          #linkedin: https://linkedin.com/
           
       - name: "Jinwoo Chung"
         id: "Jinwoo-Chung"
@@ -154,7 +156,7 @@ en: &DEFAULT_EN
         hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
         interests: "Machine Learning, PEPT, diffusion model"
         social:
-          linkedin: https://linkedin.com/
+          #linkedin: https://linkedin.com/
           scholar: https://scholar.google.com/
 
       - name: "Jinwoo Kim"
@@ -165,7 +167,7 @@ en: &DEFAULT_EN
         hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
         interests: "Machine Learning, Model Compression"
         social:
-          linkedin: https://linkedin.com/
+          #linkedin: https://linkedin.com/
           scholar: https://scholar.google.com/
 
   about:
@@ -276,14 +278,34 @@ en: &DEFAULT_EN
     
     # International Journals
     journals:
+      - title: "Entropy-Guided Meta-Initialization regularization for few-shot text classification"
+        authors: "Jongyun Shin, Jinwoo Kim, Jangho Kim"
+        venue: "Expert Systems with Applications"
+        link: "https://www.sciencedirect.com/science/article/abs/pii/S0950705125010068"
+    
+      - title: "Magnitude attention-based dynamic pruning"
+        authors: "Jihye Back, Namhyuk Ahn, Jangho Kim"
+        venue: "Expert Systems with Applications"
+        link: "https://www.sciencedirect.com/science/article/abs/pii/S0957417425005792"
+    
+      - title: "Layerwise-priority-based gradient adjustment for few-shot learning"
+        authors: "Jangho Kim, JunHoo Lee, Donghoon Han, Nojun Kwak"
+        venue: "Expert Systems with Applications"
+        link: "https://www.sciencedirect.com/science/article/abs/pii/S095741742500675X"
+
+      - title: "Quantization-aware training with Dynamic and Static Pruning"
+        authors: "Sangho An, Jongyun Shin, Jangho Kim"
+        venue: "IEEE Access"
+        link: "https://ieeexplore.ieee.org/document/10946020"
+    
       - title: "Quantization Robust Pruning With Knowledge Distillation"
         authors: "Jangho Kim"
-        venue: "IEEE Access, vol. 11, pp. 26419 - 26426, March 2023"
+        venue: "IEEE Access"
         link: "https://ieeexplore.ieee.org/document/10072406"
         
       - title: "Model Compression via Position-Based Scaled Gradient"
         authors: "Jangho Kim, KiYoon Yoo, Nojun Kwak"
-        venue: "IEEE Access, vol. 10, pp. 133828 - 133841, Dec. 2022"
+        venue: "IEEE Access, vol. 10"
         link: "https://ieeexplore.ieee.org/document/9996406"
         
     # Challenges
@@ -321,26 +343,26 @@ en: &DEFAULT_EN
     
     # Patents
     # Patents
-    patents:
-      - title: "Residual normalization for improved neural network classifications"
-        inventors: "Byeonggeun Kim, Simyung Chang, Jangho Kim, YANG Seunghan, Kyu Woong Hwang"
-        number: "US Patent App. 17/807,479"
-        status: "Granted"
+    # patents:
+    #   - title: "Residual normalization for improved neural network classifications"
+    #     inventors: "Byeonggeun Kim, Simyung Chang, Jangho Kim, YANG Seunghan, Kyu Woong Hwang"
+    #     number: "US Patent App. 17/807,479"
+    #     status: "Granted"
         
-      - title: "Bayesian personalization"
-        inventors: "Jangho Kim, Juntae Lee, Simyung Chang"
-        number: "US Patent App. 17/824,832"
-        status: "Granted"
+    #   - title: "Bayesian personalization"
+    #     inventors: "Jangho Kim, Juntae Lee, Simyung Chang"
+    #     number: "US Patent App. 17/824,832"
+    #     status: "Granted"
         
-      - title: "MODEL COMPRESSION USING PRUNING QUANTIZATION AND KNOWLEDGE DISTILLATION"
-        inventors: "Jangho Kim, Simyung Chang, Hyunsin Park, Juntae Lee, Jaewon Choi, Kyu Woong Hwang"
-        number: "US Patent App. 17/705,248"
-        status: "Granted"
+    #   - title: "MODEL COMPRESSION USING PRUNING QUANTIZATION AND KNOWLEDGE DISTILLATION"
+    #     inventors: "Jangho Kim, Simyung Chang, Hyunsin Park, Juntae Lee, Jaewon Choi, Kyu Woong Hwang"
+    #     number: "US Patent App. 17/705,248"
+    #     status: "Granted"
         
-      - title: "Personalized neural network pruning"
-        inventors: "Simyung Chang, Jangho Kim, PARK Hyunsin, LEE Juntae, Jaewon Choi, Kyu Woong Hwang"
-        number: "US Patent App. 17/506,646" 
-        status: "Granted"
+    #   - title: "Personalized neural network pruning"
+    #     inventors: "Simyung Chang, Jangho Kim, PARK Hyunsin, LEE Juntae, Jaewon Choi, Kyu Woong Hwang"
+    #     number: "US Patent App. 17/506,646" 
+    #     status: "Granted"
 
   contact:
     title: "Contact Us"

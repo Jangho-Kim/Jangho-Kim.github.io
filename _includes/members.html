@@ -49,10 +49,16 @@
                   <i class="fas fa-envelope"></i>
                 </a>
                 {% endif %}
+
+                {% if person.social.cv %}
+                <a href="{{ person.social.cv }}" class="social-icon" target="_blank">
+                  <i class="fas fa-file-alt"></i>
+                </a>
+                {% endif %}
               </div>
             </div>
           </div>
-          
+
           <div class="col-md-8">
             <div class="professor-bio">
               <h5>Research Interests</h5>
@@ -100,15 +106,24 @@
       {% for person in site.data.sitetext[site.locale].members.people %}
         {% if person.category == "PhD" %}
           <div class="col-md-4 text-center">
-            <div class="team-member member-card" data-toggle="modal" data-target="#member-modal-{{ person.id }}">
-              <div class="member-hover-container mx-auto">
-                <img class="mx-auto normal-image" src="{{ person.image }}" alt="{{ person.name }}">
-                {% if person.hover_image %}
-                <img class="mx-auto hover-image" src="{{ person.hover_image }}" alt="{{ person.name }} Fun">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="{{ person.name }}">
+              <h4 class="mt-3">{{ person.name }}</h4>
+              <p class="text-muted">{{ person.interests }}</p>
+              <div class="member-social">
+                {% if person.social.github %}
+                <a href="{{ person.social.github }}" class="social-icon" target="_blank"><i class="fab fa-github"></i></a>
+                {% endif %}
+                {% if person.social.scholar %}
+                <a href="{{ person.social.scholar }}" class="social-icon" target="_blank"><i class="fas fa-graduation-cap"></i></a>
+                {% endif %}
+                {% if person.email %}
+                <a href="mailto:{{ person.email }}" class="social-icon"><i class="fas fa-envelope"></i></a>
+                {% endif %}
+                {% if person.social.cv %}
+                <a href="{{ person.social.cv }}" class="social-icon" target="_blank"><i class="fas fa-file-alt"></i></a>
                 {% endif %}
               </div>
-              <h4 class="mt-3 text-center">{{ person.name }}</h4>
-              <p class="text-muted text-center">{{ person.title }}</p>
             </div>
           </div>
         {% endif %}
@@ -125,15 +140,24 @@
       {% for person in site.data.sitetext[site.locale].members.people %}
         {% if person.category == "Master" %}
         <div class="col-md-4 text-center">
-          <div class="team-member member-card" data-toggle="modal" data-target="#member-modal-{{ person.id }}">
-            <div class="member-hover-container mx-auto">
-              <img class="mx-auto normal-image" src="{{ person.image }}" alt="{{ person.name }}">
-              {% if person.hover_image %}
-              <img class="mx-auto hover-image" src="{{ person.hover_image }}" alt="{{ person.name }} Fun">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="{{ person.name }}">
+            <h4 class="mt-3">{{ person.name }}</h4>
+            <p class="text-muted">{{ person.interests }}</p>
+            <div class="member-social">
+              {% if person.social.github %}
+              <a href="{{ person.social.github }}" class="social-icon" target="_blank"><i class="fab fa-github"></i></a>
+              {% endif %}
+              {% if person.social.scholar %}
+              <a href="{{ person.social.scholar }}" class="social-icon" target="_blank"><i class="fas fa-graduation-cap"></i></a>
+              {% endif %}
+              {% if person.email %}
+              <a href="mailto:{{ person.email }}" class="social-icon"><i class="fas fa-envelope"></i></a>
+              {% endif %}
+              {% if person.social.cv %}
+              <a href="{{ person.social.cv }}" class="social-icon" target="_blank"><i class="fas fa-file-alt"></i></a>
               {% endif %}
             </div>
-            <h4 class="mt-3 text-center">{{ person.name }}</h4>
-            <p class="text-muted text-center">{{ person.title }}</p>
           </div>
         </div>
         {% endif %}
@@ -150,15 +174,24 @@
       {% for person in site.data.sitetext[site.locale].members.people %}
         {% if person.category == "Undergraduate" %}
         <div class="col-md-4 text-center">
-          <div class="team-member member-card" data-toggle="modal" data-target="#member-modal-{{ person.id }}">
-            <div class="member-hover-container mx-auto">
-              <img class="mx-auto normal-image" src="{{ person.image }}" alt="{{ person.name }}">
-              {% if person.hover_image %}
-              <img class="mx-auto hover-image" src="{{ person.hover_image }}" alt="{{ person.name }} Fun">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="{{ person.name }}">
+            <h4 class="mt-3">{{ person.name }}</h4>
+            <p class="text-muted">{{ person.interests }}</p>
+            <div class="member-social">
+              {% if person.social.github %}
+              <a href="{{ person.social.github }}" class="social-icon" target="_blank"><i class="fab fa-github"></i></a>
+              {% endif %}
+              {% if person.social.scholar %}
+              <a href="{{ person.social.scholar }}" class="social-icon" target="_blank"><i class="fas fa-graduation-cap"></i></a>
+              {% endif %}
+              {% if person.email %}
+              <a href="mailto:{{ person.email }}" class="social-icon"><i class="fas fa-envelope"></i></a>
+              {% endif %}
+              {% if person.social.cv %}
+              <a href="{{ person.social.cv }}" class="social-icon" target="_blank"><i class="fas fa-file-alt"></i></a>
               {% endif %}
             </div>
-            <h4 class="mt-3 text-center">{{ person.name }}</h4>
-            <p class="text-muted text-center">{{ person.title }}</p>
           </div>
         </div>
         {% endif %}
@@ -175,15 +208,24 @@
       {% for person in site.data.sitetext[site.locale].members.people %}
         {% if person.category == "Graduated" %}
         <div class="col-md-4 text-center">
-          <div class="team-member member-card" data-toggle="modal" data-target="#member-modal-{{ person.id }}">
-            <div class="member-hover-container mx-auto">
-              <img class="mx-auto normal-image" src="{{ person.image }}" alt="{{ person.name }}">
-              {% if person.hover_image %}
-              <img class="mx-auto hover-image" src="{{ person.hover_image }}" alt="{{ person.name }} Fun">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="{{ person.name }}">
+            <h4 class="mt-3">{{ person.name }}</h4>
+            <p class="text-muted">{{ person.interests }}</p>
+            <div class="member-social">
+              {% if person.social.github %}
+              <a href="{{ person.social.github }}" class="social-icon" target="_blank"><i class="fab fa-github"></i></a>
+              {% endif %}
+              {% if person.social.scholar %}
+              <a href="{{ person.social.scholar }}" class="social-icon" target="_blank"><i class="fas fa-graduation-cap"></i></a>
+              {% endif %}
+              {% if person.email %}
+              <a href="mailto:{{ person.email }}" class="social-icon"><i class="fas fa-envelope"></i></a>
+              {% endif %}
+              {% if person.social.cv %}
+              <a href="{{ person.social.cv }}" class="social-icon" target="_blank"><i class="fas fa-file-alt"></i></a>
               {% endif %}
             </div>
-            <h4 class="mt-3 text-center">{{ person.name }}</h4>
-            <p class="text-muted text-center">{{ person.title }}</p>
           </div>
         </div>
         {% endif %}
@@ -191,71 +233,6 @@
     </div>
   </div>
 </section>
-
-<!-- Member Modals (교수님 제외) -->
-{% for person in site.data.sitetext[site.locale].members.people %}
-  {% if person.category != "Professor" %}
-    <div class="portfolio-modal modal fade" id="member-modal-{{ person.id }}" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body text-center">
-                  <!-- Member Details -->
-                  <img class="img-fluid d-block mx-auto rounded-circle" style="max-width: 200px;" src="{{ person.image }}" alt="{{ person.name }}">
-                  <h2 class="text-uppercase mt-4">{{ person.name }}</h2>
-                  <p class="item-intro text-muted">{{ person.title }}</p>
-                  
-                  <div class="member-interests mt-4">
-                    <h5>Research Interests</h5>
-                    <p>{{ person.interests }}</p>
-                  </div>
-                  
-                  <div class="member-social mt-4">
-                    {% if person.social.github %}
-                    <a href="{{ person.social.github }}" class="btn btn-dark btn-social mx-2">
-                      <i class="fab fa-github"></i>
-                    </a>
-                    {% endif %}
-                    
-                    {% if person.social.linkedin %}
-                    <a href="{{ person.social.linkedin }}" class="btn btn-primary btn-social mx-2">
-                      <i class="fab fa-linkedin-in"></i>
-                    </a>
-                    {% endif %}
-                    
-                    {% if person.social.scholar %}
-                    <a href="{{ person.social.scholar }}" class="btn btn-info btn-social mx-2">
-                      <i class="fas fa-graduation-cap"></i>
-                    </a>
-                    {% endif %}
-                    
-                    {% if person.email %}
-                    <a href="mailto:{{ person.email }}" class="btn btn-danger btn-social mx-2">
-                      <i class="fas fa-envelope"></i>
-                    </a>
-                    {% endif %}
-                  </div>
-                  
-                  <button class="btn btn-primary mt-4" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  {% endif %}
-{% endfor %}
 {% else %}
 <!-- Default when locale is not defined - similar structure repeats -->
 <section class="page-section" id="{{ site.data.sitetext.members.section | default: "members" }}">
