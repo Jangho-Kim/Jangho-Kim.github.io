@@ -80,7 +80,7 @@ en: &DEFAULT_EN
           scholar: https://scholar.google.com/citations?user=hc7Bw0UAAAAJ&hl=ko
           github: https://github.com/ahnho
           #linkedin: https://linkedin.com/
-          cv: assets/cv/Jangho_CV.pdf
+          cv: assets/cv/sangho_CV.pdf
       
       - name: "Hyunjoon Cho"
         id: "Hyunjoon-Cho"
