@@ -143,8 +143,8 @@ en: &DEFAULT_EN
         id: "Jiwong Yang"
         title: ""
         category: "Undergraduate"
-        image: assets/img/team/jw.jpeg
-        hover_image: assets/img/team/jw.jpeg  # 이스터에그 이미지
+        image: assets/img/team/jw.png
+        hover_image: assets/img/team/jw.png  # 이스터에그 이미지
         interests: "Generative model"
         email: "wpyang12@kookmin.ac.kr"
         social:
