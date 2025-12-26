@@ -128,7 +128,7 @@ en: &DEFAULT_EN
         social:
           github: https://github.com/
 
-      - name: "Choripinska Veronica"
+      - name: "Czorapinska Weronika"
         id: "Choripinska Veronica"
         title: ""
         category: "Undergraduate"
@@ -139,7 +139,7 @@ en: &DEFAULT_EN
         social:
           github: https://github.com/
 
-      - name: "Jiwong Yang"
+      - name: "Jiwoong Yang"
         id: "Jiwong Yang"
         title: ""
         category: "Undergraduate"
