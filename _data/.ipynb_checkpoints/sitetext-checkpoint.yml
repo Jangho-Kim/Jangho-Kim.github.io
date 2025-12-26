@@ -88,7 +88,7 @@ en: &DEFAULT_EN
         category: "Master"
         image: assets/img/team/jyj.jpeg
         hover_image: assets/img/team/jyj.jpeg  # 이스터에그 이미지
-        interests: "Machine Unlearning, Deep Learning, Autonomous Driving"
+        interests: "Machine Unlearning,<br>Autonomous Driving"
         email: "master2@example.com"
         social:
           github: https://github.com/hyunjoon0208
@@ -100,7 +100,7 @@ en: &DEFAULT_EN
         category: "Master"
         image: assets/img/team/jts.jpeg
         hover_image: assets/img/team/jts.jpeg  # 이스터에그 이미지
-        interests: "generative model, diffusion model"
+        interests: "generative model,<br> diffusion model"
         email: "tasong12@kookmin.ac.kr"
         social:
           github: https://github.com/Topadonijah
@@ -123,7 +123,7 @@ en: &DEFAULT_EN
         category: "Undergraduate"
         image: assets/img/team/sol.png
         hover_image: assets/img/team/sol.png  # 이스터에그 이미지
-        interests: "Model Compression, Computer Vision"
+        interests: "Model Compression,<br> Computer Vision"
         email: "solhee0912@gmail.com"
         social:
           github: https://github.com/ssoree912
@@ -156,7 +156,7 @@ en: &DEFAULT_EN
         category: "Undergraduate"
         image: assets/img/team/jsy.png
         hover_image: assets/img/team/jsy.png  # 이스터에그 이미지
-        interests: "Model compression, Federated Learning"
+        interests: "Model compression,<br> Federated Learning"
         email: "jshjsy01@kookmin.ac.kr"
         social:
           github: https://github.com/kmu-jungsy
