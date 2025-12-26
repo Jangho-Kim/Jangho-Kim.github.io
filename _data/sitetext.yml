@@ -74,7 +74,7 @@ en: &DEFAULT_EN
         category: "Master"
         image: assets/img/team/ash.jpeg
         hover_image: assets/img/team/ash.jpeg  # 이스터에그 이미지
-        interests: "Deep Learning, Model Compression , Model Pruning, Quantization"
+        interests: "Model Pruning, Quantization, PEFT"
         email: "do753951@kookmin.ac.kr"
         social:
           scholar: https://scholar.google.com/citations?user=hc7Bw0UAAAAJ&hl=ko
@@ -112,7 +112,7 @@ en: &DEFAULT_EN
         category: "Master"
         image: assets/img/team/500x500.jpg
         hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
-        interests: "Model Quantization"
+        interests: "Quantization"
         email: "undergrad1@example.com"
         social:
           github: https://github.com/
@@ -121,42 +121,42 @@ en: &DEFAULT_EN
         id: "Solhee Hwang"
         title: ""
         category: "Undergraduate"
-        image: assets/img/team/500x500.jpg
-        hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
-        interests: "Model compression"
-        email: "jshjsy01@kookmin.ac.kr"
+        image: assets/img/team/sol.png
+        hover_image: assets/img/team/sol.png  # 이스터에그 이미지
+        interests: "Model Compression, Computer Vision"
+        email: "solhee0912@gmail.com"
         social:
-          github: https://github.com/
+          github: https://github.com/ssoree912
 
       - name: "Czorapinska Weronika"
         id: "Choripinska Veronica"
         title: ""
         category: "Undergraduate"
-        image: assets/img/team/500x500.jpg
-        hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
-        interests: "Model compression"
-        email: "jshjsy01@kookmin.ac.kr"
+        image: assets/img/team/we.jpeg
+        hover_image: assets/img/team/we.jpeg  # 이스터에그 이미지
+        interests: "Autonomous Driving, Quantization"
+        email: "czorapinska@kookmin.ac.kr"
         social:
-          github: https://github.com/
+          github: https://github.com/seennothing
 
       - name: "Jiwoong Yang"
         id: "Jiwong Yang"
         title: ""
         category: "Undergraduate"
-        image: assets/img/team/500x500.jpg
-        hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
-        interests: "Model compression"
-        email: "jshjsy01@kookmin.ac.kr"
+        image: assets/img/team/jw.jpeg
+        hover_image: assets/img/team/jw.jpeg  # 이스터에그 이미지
+        interests: "Generative model"
+        email: "wpyang12@kookmin.ac.kr"
         social:
-          github: https://github.com/
+          github: https://github.com/yangjiwoong1
 
       - name: "Sungyeop Jung"
         id: "Sungyeop-Jeong"
         title: ""
         category: "Undergraduate"
-        image: assets/img/team/500x500.jpg
-        hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
-        interests: "Model compression"
+        image: assets/img/team/jsy.png
+        hover_image: assets/img/team/jsy.png  # 이스터에그 이미지
+        interests: "Model compression, Federated Learning"
         email: "jshjsy01@kookmin.ac.kr"
         social:
           github: https://github.com/kmu-jungsy
