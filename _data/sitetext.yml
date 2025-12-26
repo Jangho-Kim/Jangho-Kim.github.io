@@ -110,8 +110,8 @@ en: &DEFAULT_EN
         id: "Jinwoo-Chung"
         title: ""
         category: "Master"
-        image: assets/img/team/500x500.jpg
-        hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
+        image: assets/img/team/jjw.jpeg
+        hover_image: assets/img/team/jjw.jpeg  # 이스터에그 이미지
         interests: "Quantization"
         email: "undergrad1@example.com"
         social:
