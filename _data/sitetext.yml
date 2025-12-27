@@ -23,7 +23,7 @@ en: &DEFAULT_EN
         social:
           github: https://github.com/Jangho-Kim
           #linkedin: https://linkedin.com/
-          scholar: https://scholar.google.com/
+          scholar: https://scholar.google.com/citations?user=mzFEJVIAAAAJ&hl=ko
           cv: assets/cv/Jangho_CV.pdf  # CV 링크 예시  # PDF 파일명 수정 가능
         education:
           - "Ph.D., Program in Intelligent Systems, Seoul National University,Korea 2022"
