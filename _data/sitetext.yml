@@ -368,12 +368,13 @@ en: &DEFAULT_EN
 
     # Under Review
     under_review:
-      - title: "논문 제목 예시"
-        authors: "저자1, 저자2, 저자3"
-        venue: "(Under Review)"
-      # - title: "다른 논문 제목"
-      #   authors: "저자1, 저자2"
-      #   venue: "다른 학회명 (Under Review)"
+      - title: "Hint-Painter: Leveraging Low-Frequency Priors for Style Consistent Video Outpainting"
+        authors: "Taeseong Jeong, Sangho An, Yeonji Ryou, Jeongha Yang, Jangho Kim"
+        venue: "The 29th International Conference on Artificial Intelligence and Statistics(AISTATS)(Under Review)"
+        
+      - title: "Adaptive Inpainting Masking from Unconditional Concept Erasure Bias for Safe Inpainting"
+        authors: "Taeseong Jeong, Yang jiwoong, Jangho Kim "
+        venue: "Conference on Computer Vision and Pattern Recognition 2026(CVPR)(Under Review)"
 
     # Open Archive and Tech Reports
     archives:
