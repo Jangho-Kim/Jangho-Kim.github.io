@@ -48,7 +48,7 @@ en: &DEFAULT_EN
         category: "PhD"
         image: assets/img/team/lhe.jpeg
         hover_image: assets/img/team/lhe.jpeg # 이스터에그 이미지
-        interests: "Natural Language Processing"
+        interests: "Natural Language Processing, Quantum Machine Learning"
         email: "helee@kookmin.ac.kr"
         social:
           # github: https://github.com/
