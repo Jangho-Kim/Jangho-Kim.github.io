@@ -366,15 +366,6 @@ en: &DEFAULT_EN
         link: ""
         rank: "3rd Place"
 
-    # Under Review
-    under_review:
-      - title: "Hint-Painter: Leveraging Low-Frequency Priors for Style Consistent Video Outpainting"
-        authors: "Taeseong Jeong, Sangho An, Yeonji Ryou, Jeongha Yang, Jangho Kim"
-        venue: "The 29th International Conference on Artificial Intelligence and Statistics(AISTATS)(Under Review)"
-        
-      - title: "Adaptive Inpainting Masking from Unconditional Concept Erasure Bias for Safe Inpainting"
-        authors: "Taeseong Jeong, Yang jiwoong, Jangho Kim "
-        venue: "Conference on Computer Vision and Pattern Recognition 2026(CVPR)(Under Review)"
 
     # Open Archive and Tech Reports
     archives:
