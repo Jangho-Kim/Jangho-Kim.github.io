@@ -197,6 +197,12 @@ en: &DEFAULT_EN
     
     # International Conferences and Workshops
     conferences:
+      - title: "SharedKD: Gradient-Guided Dynamic Student Discovery inside a Single 3D Object Detector"
+        authors: "Hyunjoon Cho, Sangho An, Hyunsung Park, Jangho Kim"
+        venue: "Design Automation Conference (DAC 2026) (BK21+ 사업 선정 우수학술대회)"
+        link: ""
+        year: 2026
+
       - title: "Exploring Diverse Sparse Network Structures via Dynamic Pruning with Weight Alignment"
         authors: "Jinwoo Kim, Jongyun Shin, Sangho An, Jangho Kim"
         venue: "Proceedings of the 34th ACM International Conference on Information and Knowledge Management  (CIKM 2025) (BK21+ 사업 선정 우수학술대회)"
