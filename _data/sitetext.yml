@@ -196,12 +196,35 @@ en: &DEFAULT_EN
     section: publications
     
     # International Conferences and Workshops
+
+
+
     conferences:
+      - title: "Nonlinear Color Transfer via Learnable Bezier Flows"
+        authors: "Junhyoung Lee*, Seongwoon Jo*, Jeong-Hun Park, Yeonji Ryou, Jeongha Yang, Jangho Kim"
+        venue: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026) (BK21+ 사업 선정 우수학술대회)"
+        link: ""
+        year: 2026
+
       - title: "SharedKD: Gradient-Guided Dynamic Student Discovery inside a Single 3D Object Detector"
-        authors: "Hyunjoon Cho, Sangho An, Hyunsung Park, Jangho Kim"
+        authors: "Hyunjoon Cho*, Sangho An*, Hyunsung Park, Jangho Kim"
         venue: "Design Automation Conference (DAC 2026) (BK21+ 사업 선정 우수학술대회)"
         link: ""
         year: 2026
+        
+      - title: "SQuaT: Self-Supervised Knowledge Distillation via Student-Aware Quantized Teacher Features"
+        authors: "HyeonJun Lee*, Hyeonsik Jo*, Jinwoo Chung, Jangho Kim"
+        venue: "The 29th International Conference on Artificial Intelligence and Statistics (AISTATS 2026) (BK21+ 사업 선정 우수학술대회)"
+        link: ""
+        year: 2026
+
+      - title: "Weight Initialization based on Gradient Similarity for Versatile Machine Unlearning"
+        authors: "Doun Lee, Jongyun Shin, Jinwoo Bae, Hyunjoon Cho, Jangho Kim"
+        venue: "Privacy Enhancing Technologies Symposium (PETS 2026) (한국정보과학회 선정 우수학술대회)"
+        link: ""
+        year: 2026
+
+      
 
       - title: "Exploring Diverse Sparse Network Structures via Dynamic Pruning with Weight Alignment"
         authors: "Jinwoo Kim, Jongyun Shin, Sangho An, Jangho Kim"
@@ -229,7 +252,7 @@ en: &DEFAULT_EN
 
       - title: "Self-Distilled Self-Supervised Representation Learning "
         authors: "Jiho Jang, KiYoon Yoo, Seonhoon Kim, Chaerin Kong, Jangho Kim, Nojun Kwak "
-        venue: "Winter Conference on Applications of Computer Vision 2023 (WACV 2023)"
+        venue: "Winter Conference on Applications of Computer Vision 2023 (WACV 2023) (한국정보과학회 선정 우수학술대회)"
         link: "https://openaccess.thecvf.com/content/WACV2023/papers/Jang_Self-Distilled_Self-Supervised_Representation_Learning_WACV_2023_paper.pdf"
         year: 2023
 
@@ -271,7 +294,7 @@ en: &DEFAULT_EN
 
       - title: "Prototype-based Personalized Pruning"
         authors: "Jangho Kim, Simyung Chang, Sungrack Yun, Nojun Kwak"
-        venue: "2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2021), June. 2021, online"
+        venue: "2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2021), June. 2021, online (한국정보과학회 선정 우수학술대회)"
         link: "https://arxiv.org/abs/2103.15564"
         year: 2021
 
@@ -317,8 +340,8 @@ en: &DEFAULT_EN
     # International Journals
     journals:
       - title: "Entropy-Guided Meta-Initialization regularization for few-shot text classification"
-        authors: "Jongyun Shin, Jinwoo Kim, Jangho Kim"
-        venue: "Expert Systems with Applications"
+        authors: "Jongyun Shin*, Jinwoo Kim*, Jangho Kim"
+        venue: "Knowledge-Based Systems"
         link: "https://www.sciencedirect.com/science/article/abs/pii/S0950705125010068"
         year: 2025
 
