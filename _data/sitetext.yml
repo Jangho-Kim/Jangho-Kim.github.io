@@ -200,6 +200,25 @@ en: &DEFAULT_EN
 
 
     conferences:
+
+      - title: "TAQ: Static-Deployable Temporal-Aware Quantization for Real-World Video Super-Resolution"
+        authors: "Jinwoo Chung, Sangho An, Sungyeop Jung, Jangho Kim"
+        venue: "The 19th European Conference on Computer Vision (ECCV 2026) (BK21+ 사업 선정 우수학술대회)"
+        link: ""
+        year: 2026
+
+      - title: "Sparse Recovery Bird’s-Eye View Model Soup for Robust Camera-Based 3D Object Detection"
+        authors: "Jinwoo Chung, Sangho An, Hyunsung Park, Jangho Kim"
+        venue: "Proceedings of the 2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026) (한국정보과학회 선정 우수학술대회)"
+        link: ""
+        year: 2026
+
+      - title: "Quantized Model Soup Shake-Up: Weight Perturbation for Enhanced Ensemble Diversity"
+        authors: "Jinwoo Chung, Sungyeop Jung, Weronika Czorapinska, Jangho Kim"
+        venue: "2026 ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD 2026) (BK21+ 사업 선정 우수학술대회)"
+        link: ""
+        year: 2026
+
       - title: "Nonlinear Color Transfer via Learnable Bezier Flows"
         authors: "Junhyoung Lee*, Seongwoon Jo*, Jeong-Hun Park, Yeonji Ryou, Jeongha Yang, Jangho Kim"
         venue: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026) (BK21+ 사업 선정 우수학술대회)"
