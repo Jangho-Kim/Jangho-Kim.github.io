@@ -201,6 +201,20 @@ en: &DEFAULT_EN
 
     conferences:
 
+
+      - title: "Learning Task-Conditioned Distributional Initializers for Variational Quantum Algorithms"
+        authors: "Hea Eun Lee, Jangho Kim"
+        venue: "The IEEE International Conference on Data Mining (ICDM 2026) (BK21+ 사업 선정 우수학술대회)"
+        link: ""
+        year: 2026
+
+
+      - title: "Quantized Contrastive Unlearning"
+        authors: "Hyunjoon Cho, Jongyun Shin, Doun Lee, Jangho Kim"
+        venue: "Proceedings of the 35th ACM International Conference on Information and Knowledge Management  (CIKM 2026) (BK21+ 사업 선정 우수학술대회)"
+        link: ""
+        year: 2026
+
       - title: "TAQ: Static-Deployable Temporal-Aware Quantization for Real-World Video Super-Resolution"
         authors: "Jinwoo Chung, Sangho An, Sungyeop Jung, Jangho Kim"
         venue: "The 19th European Conference on Computer Vision (ECCV 2026) (BK21+ 사업 선정 우수학술대회)"
