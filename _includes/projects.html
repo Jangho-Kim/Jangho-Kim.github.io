@@ -1,0 +1,34 @@
+<!-- Standalone Research Projects section -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+  {% assign research_projects = site.data.sitetext[site.locale].projects %}
+{% else %}
+  {% assign research_projects = site.data.sitetext.projects %}
+{% endif %}
+{% if research_projects and research_projects.list %}
+<section class="page-section research-projects-section" id="{{ research_projects.section | default: 'projects' }}">
+  <div class="container">
+    <div class="row"><div class="col-lg-12 text-center">
+      <h2 class="section-heading text-uppercase">{{ research_projects.title | default: 'Research Projects' }}</h2>
+      <h3 class="section-subheading text-muted">{{ research_projects.text }}</h3>
+    </div></div>
+    {% assign roles = 'Principal Investigator|Project Manager|Program Manager|Participating Researcher' | split: '|' %}
+    {% for role in roles %}
+      {% assign role_items = research_projects.list | where: 'role', role %}
+      {% if role_items.size > 0 %}
+      <div class="row"><div class="col-lg-12">
+        <h3 class="research-projects-role">{% if role == 'Program Manager' or role == 'Project Manager' %}Program / Project Management{% else %}{{ role }}{% endif %}</h3>
+        {% for project in role_items %}
+        <div class="research-projects-item">
+          <div class="research-projects-details">
+            <h4>{{ project.title | escape }}</h4>
+            <p class="text-muted">{{ project.organization | escape }}</p>
+          </div>
+          <div class="research-projects-year">{{ project.year | escape }}</div>
+        </div>
+        {% endfor %}
+      </div></div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

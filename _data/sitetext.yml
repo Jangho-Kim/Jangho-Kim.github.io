@@ -1,630 +1,1032 @@
 # English (default)
+
 # -----------------
+
 en: &DEFAULT_EN
+
   header:
+
     title: Welcome to Our ML&PR Lab
+
     text: Research and Innovation
+
     button: Learn More
+
     buttonlink: "#notice"
 
   members:
+
     title: "OUR TEAM"
+
     # text: "Meet the researchers driving innovation in our lab"
+
     section: members
+
     people:
+
       - name: "Prof. Jangho Kim"
+
         id: "jangho-kim"
+
         title: "Assistant Professor"
+
         category: "Professor"
+
         image: assets/img/team/kjh.jpg
+
         interests: "Model Compression, Computer Vision, Natural Language Processing"
+
         email: "jangho.kim@kookmin.ac.kr"
+
         tel: "02-910-4791"
+
         social:
+
           github: https://github.com/Jangho-Kim
+
           #linkedin: https://linkedin.com/
+
           scholar: https://scholar.google.com/citations?user=mzFEJVIAAAAJ&hl=ko
+
           cv: assets/cv/Jangho_CV.pdf  # CV 링크 예시  # PDF 파일명 수정 가능
+
         education:
+
           - "Ph.D., Program in Intelligent Systems, Seoul National University,Korea 2022"
+
           - "MS., Computer Science and Engineering,, Pohang University of Science and Technology (POSTECH), Korea 2017"
+
           - "BS., Information and Communication Engineering, Cum laude, Dongguk University, Korea 2015"
+
         experience:
+
           - "Assistant Professor, School of Artificial intelligence, College of Computer science, Kookmin University, Seoul, 2022-Present"
+
           - "Research scientist, NAVER WEBTOON AI Research Lab, Pangyo, Jan. 2022 - Aug. 2022"
+
           - "Research Intern, Qualcomm AI Research, Seoul, Summer Jul. 2020 - Jul. 2021"
+
           - "Research Intern, Qualcomm AI Research, San Diego, CA, Summer Jul. 2019 - Oct. 2019"
 
         awards:
+
           - "Yulchon AI Scholarship (AI Star) 2021"
+
           - "1st Rank on Task-1A, Detection and Classification of Acoustic Scenes and Events (DCASE) 2021"
+
           - "Graduate sponsorship, Samsung Advanced Institute of Technology (SAIT) 2020 - 2021"
+
           - "3rd Rank on ImageNet Classification, MicroNet Challenge Hosted at NeurIPS 2019 2019"
 
-          
       - name: "Hea Eun Lee"
+
         id: "john-smith"
+
         title: ""
+
         category: "PhD"
+
         image: assets/img/team/lhe.jpeg
+
         hover_image: assets/img/team/lhe.jpeg # 이스터에그 이미지
+
         interests: "Natural Language Processing, Quantum Machine Learning"
+
         email: "helee@kookmin.ac.kr"
+
         social:
+
           # github: https://github.com/
+
           #linkedin: https://linkedin.com/
+
           scholar: https://scholar.google.com/citations?user=rT81JKUAAAAJ&hl=ko&oi=ao
-          
+
       # - name: "Emily Johnson"
+
       #   id: "emily-johnson"
+
       #   title: "PhD Candidate"
+
       #   category: "PhD"
+
       #   image: assets/img/team/500x500.jpg
+
       #   hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
+
       #   interests: "Deep Learning, Healthcare Applications"
+
       #   email: "phd2@example.com"
+
       #   social:
+
       #     github: https://github.com/
+
       #     #linkedin: https://linkedin.com/
+
       #     scholar: https://scholar.google.com/
-          
+
       - name: "Sangho An"
+
         id: "Sangho-An"
+
         title: ""
+
         category: "Master"
+
         image: assets/img/team/ash.jpeg
+
         hover_image: assets/img/team/ash.jpeg  # 이스터에그 이미지
+
         interests: "Model Pruning, Quantization, PEFT"
+
         email: "do753951@kookmin.ac.kr"
+
         social:
+
           scholar: https://scholar.google.com/citations?user=hc7Bw0UAAAAJ&hl=ko
+
           github: https://github.com/ahnho
+
           #linkedin: https://linkedin.com/
+
           cv: assets/cv/sangho_CV.pdf
-      
+
       - name: "Hyunjoon Cho"
+
         id: "Hyunjoon-Cho"
+
         title: ""
+
         category: "Master"
+
         image: assets/img/team/jyj.jpeg
+
         hover_image: assets/img/team/jyj.jpeg  # 이스터에그 이미지
+
         interests: "Machine Unlearning,<br>Autonomous Driving"
+
         email: "master2@example.com"
+
         social:
+
           github: https://github.com/hyunjoon0208
+
           #linkedin: https://linkedin.com/
 
       - name: "Taeseong Jeong"
+
         id: "Taeseong-Jeong"
+
         title: ""
+
         category: "Master"
+
         image: assets/img/team/jts.jpeg
+
         hover_image: assets/img/team/jts.jpeg  # 이스터에그 이미지
+
         interests: "generative model,<br> diffusion model"
+
         email: "tasong12@kookmin.ac.kr"
+
         social:
+
           github: https://github.com/Topadonijah
+
           #linkedin: https://linkedin.com/
-          
+
       - name: "Jinwoo Chung"
+
         id: "Jinwoo-Chung"
+
         title: ""
+
         category: "Master"
+
         image: assets/img/team/jjw.jpeg
+
         hover_image: assets/img/team/jjw.jpeg  # 이스터에그 이미지
+
         interests: "Quantization"
+
         email: "undergrad1@example.com"
+
         social:
+
           github: https://github.com/
 
       - name: "Solhee Hwang"
+
         id: "Solhee Hwang"
+
         title: ""
+
         category: "Undergraduate"
+
         image: assets/img/team/sol.png
+
         hover_image: assets/img/team/sol.png  # 이스터에그 이미지
+
         interests: "Model Compression,<br> Computer Vision"
+
         email: "solhee0912@gmail.com"
+
         social:
+
           github: https://github.com/ssoree912
 
       - name: "Czorapinska Weronika"
+
         id: "Choripinska Veronica"
+
         title: ""
+
         category: "Undergraduate"
+
         image: assets/img/team/we.jpeg
+
         hover_image: assets/img/team/we.jpeg  # 이스터에그 이미지
+
         interests: "Autonomous Driving, Quantization"
+
         email: "czorapinska@kookmin.ac.kr"
+
         social:
+
           github: https://github.com/seennothing
 
       - name: "Jiwoong Yang"
+
         id: "Jiwong Yang"
+
         title: ""
+
         category: "Undergraduate"
+
         image: assets/img/team/jw.png
+
         hover_image: assets/img/team/jw.png  # 이스터에그 이미지
+
         interests: "Generative model"
+
         email: "wpyang12@kookmin.ac.kr"
+
         social:
+
           github: https://github.com/yangjiwoong1
 
       - name: "Sungyeop Jung"
+
         id: "Sungyeop-Jeong"
+
         title: ""
+
         category: "Undergraduate"
+
         image: assets/img/team/jsy.png
+
         hover_image: assets/img/team/jsy.png  # 이스터에그 이미지
+
         interests: "Model compression,<br> Federated Learning"
+
         email: "jshjsy01@kookmin.ac.kr"
+
         social:
+
           github: https://github.com/kmu-jungsy
-          
+
       - name: "Jongyun Shin"
+
         id: "Jongyun-Shin"
+
         company: "HYUNDAI MOBIS"
+
         title: ""
+
         category: "Graduated"
+
         image: assets/img/team/500x500.jpg
+
         hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
+
         interests: "Machine Learning, PEPT, diffusion model"
+
         social:
+
           #linkedin: https://linkedin.com/
+
           scholar: https://scholar.google.com/
 
       - name: "Jinwoo Kim"
+
         id: "Jinwoo-Kim"
+
         title: ""
+
         category: "Graduated"
+
         image: assets/img/team/500x500.jpg
+
         hover_image: assets/img/team/500x500-fun.jpg  # 이스터에그 이미지
+
         interests: "Machine Learning, Model Compression"
+
         social:
+
           #linkedin: https://linkedin.com/
+
           scholar: https://scholar.google.com/
 
   about:
+
     title: "About Our Lab"
+
     text: "Our research focus"
+
     body: 'MLPR 연구실에서는 Machine Learning과 Pattern Recognition을 활용해서 효율적인 인공지능 알고리즘 또는 모델을 만드는 연구를 하고 있습니다.  특히, Ubiqutous AI "누구에게나 어디에서든지 사용가능한 AI"를 지향하고 있습니다.'
+
     section: about
 
   publications:
+
     title: "Publications"
+
     text: "Our research contributions"
+
     section: publications
-    
+
     # International Conferences and Workshops
-
-
 
     conferences:
 
-
       - title: "Q-ViK: Question-Guided Visual KV Cache Eviction for Large Vision-Language Models"
+
         authors: "Solhee Hwang, Jangho Kim"
+
         venue: "Advances in Neural Information Processing Systems (NeurIPS 2026) (BK21+ 사업 선정 우수학술대회)"
+
         link: ""
+
         year: 2026
 
       - title: "Hardware-Friendly Token-Group Activation Quantization for Low-Bit Mamba Super-Resolution"
+
         authors: "Jinwoo Chung, Jangho Kim"
+
         venue: "Advances in Neural Information Processing Systems (NeurIPS 2026) (BK21+ 사업 선정 우수학술대회)"
+
         link: ""
+
         year: 2026
 
       - title: "Improving Neural Processes in the Low-Data Regime via Context-Subset Training and Self-Distillation"
+
         authors: "Hyungi Lee, Jangho Kim"
+
         venue: "Advances in Neural Information Processing Systems (NeurIPS 2026) (BK21+ 사업 선정 우수학술대회)"
+
         link: ""
+
         year: 2026
 
       - title: "PriSM: Prior-guided Shared-basis Mixture Personalization for LLMs under Sparse User Histories"
+
         authors: "Hea Eun Lee, Hyungi Lee^, Jangho Kim^"
+
         venue: "Advances in Neural Information Processing Systems (NeurIPS 2026) (BK21+ 사업 선정 우수학술대회)"
+
         link: ""
+
         year: 2026
 
       - title: "ManiFusion: Unlocking High-Throughput Generation via Superposition in Manifold Space"
+
         authors: "Minkyu Kim, Baekseung Kim, Junhoo Lee, Jangho Kim^, Nojun Kwak^"
+
         venue: "Advances in Neural Information Processing Systems (NeurIPS 2026) (BK21+ 사업 선정 우수학술대회)"
+
         link: ""
+
         year: 2026
 
       - title: "Learning Task-Conditioned Distributional Initializers for Variational Quantum Algorithms"
+
         authors: "Hea Eun Lee, Jangho Kim"
+
         venue: "The IEEE International Conference on Data Mining (ICDM 2026) (BK21+ 사업 선정 우수학술대회)"
+
         link: ""
+
         year: 2026
 
       - title: "Quantized Contrastive Unlearning"
+
         authors: "Hyunjoon Cho, Jongyun Shin, Doun Lee, Jangho Kim"
+
         venue: "Proceedings of the 35th ACM International Conference on Information and Knowledge Management  (CIKM 2026) (Oral presentation) (BK21+ 사업 선정 우수학술대회)"
+
         link: ""
+
         year: 2026
 
       - title: "TAQ: Static-Deployable Temporal-Aware Quantization for Real-World Video Super-Resolution"
+
         authors: "Jinwoo Chung, Sangho An, Sungyeop Jung, Jangho Kim"
+
         venue: "The 19th European Conference on Computer Vision (ECCV 2026) (BK21+ 사업 선정 우수학술대회)"
+
         link: ""
+
         year: 2026
 
       - title: "Sparse Recovery Bird’s-Eye View Model Soup for Robust Camera-Based 3D Object Detection"
+
         authors: "Jinwoo Chung, Sangho An, Hyunsung Park, Jangho Kim"
+
         venue: "Proceedings of the 2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026) (Oral presentation) (한국정보과학회 선정 우수학술대회)"
+
         link: ""
+
         year: 2026
 
       - title: "Quantized Model Soup Shake-Up: Weight Perturbation for Enhanced Ensemble Diversity"
+
         authors: "Jinwoo Chung, Sungyeop Jung, Weronika Czorapinska, Jangho Kim"
+
         venue: "2026 ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD 2026) (BK21+ 사업 선정 우수학술대회)"
+
         link: ""
+
         year: 2026
 
       - title: "Nonlinear Color Transfer via Learnable Bezier Flows"
+
         authors: "Junhyoung Lee*, Seongwoon Jo*, Jeong-Hun Park, Yeonji Ryou, Jeongha Yang, Jangho Kim"
+
         venue: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026) (BK21+ 사업 선정 우수학술대회)"
+
         link: ""
+
         year: 2026
 
       - title: "SharedKD: Gradient-Guided Dynamic Student Discovery inside a Single 3D Object Detector"
+
         authors: "Hyunjoon Cho*, Sangho An*, Hyunsung Park, Jangho Kim"
+
         venue: "Design Automation Conference (DAC 2026) (Oral presentation) (BK21+ 사업 선정 우수학술대회)"
+
         link: ""
+
         year: 2026
-        
+
       - title: "SQuaT: Self-Supervised Knowledge Distillation via Student-Aware Quantized Teacher Features"
+
         authors: "HyeonJun Lee*, Hyeonsik Jo*, Jinwoo Chung, Jangho Kim"
+
         venue: "The 29th International Conference on Artificial Intelligence and Statistics (AISTATS 2026) (BK21+ 사업 선정 우수학술대회)"
+
         link: ""
+
         year: 2026
 
       - title: "Weight Initialization based on Gradient Similarity for Versatile Machine Unlearning"
+
         authors: "Doun Lee, Jongyun Shin, Jinwoo Bae, Hyunjoon Cho, Jangho Kim"
+
         venue: "Privacy Enhancing Technologies Symposium (PETS 2026) (한국정보과학회 선정 우수학술대회)"
+
         link: ""
+
         year: 2026
 
-      
-
       - title: "Exploring Diverse Sparse Network Structures via Dynamic Pruning with Weight Alignment"
+
         authors: "Jinwoo Kim, Jongyun Shin, Sangho An, Jangho Kim"
+
         venue: "Proceedings of the 34th ACM International Conference on Information and Knowledge Management  (CIKM 2025) (Oral presentation) (BK21+ 사업 선정 우수학술대회)"
+
         link: "https://dl.acm.org/doi/10.1145/3746252.3761122"
+
         year: 2025
 
       - title: "Sparse Structure Exploration and Re-optimization for Vision Transformer"
+
         authors: "Sangho An, Jinwoo Kim, Keonho Lee, Jingang Huh, Chanwoong Kwak, Yujin Lee, Moonsub Jin, Jangho Kim"
+
         venue: "The 41th Conference on Uncertainty in Artificial Intelligence  (UAI 2025) (BK21+ 사업 선정 우수학술대회)"
+
         link: "https://proceedings.mlr.press/v286/an25a.html"
+
         year: 2025
 
       - title: "Cooperative Meta-Learning with Gradient Augmentation"
+
         authors: "Jongyun Shin, Seunjin Han, Jangho Kim"
+
         venue: "The 40th Conference on Uncertainty in Artificial Intelligence  (UAI 2024) (BK21+ 사업 선정 우수학술대회)"
+
         link: "https://arxiv.org/abs/2406.04639"
+
         year: 2024
 
       - title: "Finding Efficient Pruned Network via Refined Gradients for Pruned Weights"
+
         authors: "Jangho Kim, Jayeon Yoo*, Yeji Song*, KiYoon Yoo, Nojun Kwak (* equal contribution)"
+
         venue: "The 31st ACM International Conference on Multimedia  (ACM MM 2023) (BK21+ 사업 선정 우수학술대회)"
+
         link: "https://arxiv.org/abs/2109.04660"
+
         year: 2023
 
       - title: "Self-Distilled Self-Supervised Representation Learning "
+
         authors: "Jiho Jang, KiYoon Yoo, Seonhoon Kim, Chaerin Kong, Jangho Kim, Nojun Kwak "
+
         venue: "Winter Conference on Applications of Computer Vision 2023 (WACV 2023) (한국정보과학회 선정 우수학술대회)"
+
         link: "https://openaccess.thecvf.com/content/WACV2023/papers/Jang_Self-Distilled_Self-Supervised_Representation_Learning_WACV_2023_paper.pdf"
+
         year: 2023
 
       - title: "Domain Generalization with Relaxed Instance Frequency-wise Normalization for Multi-device Acoustic Scene Classification"
+
         authors: "Byeonggeun Kim, Seunghan Yang, Jangho Kim, Hyunsin Park, Juntae Lee, Simyung Chang"
+
         venue: "The 23nd Annual Conference of the International Speech Communication Association (InterSpeech 2022), Incheon, korea (한국정보과학회 선정 우수학술대회)"
+
         link: "https://arxiv.org/abs/2206.12513"
+
         year: 2022
 
       - title: "Variational On-the-Fly Personalization"
+
         authors: "Jangho Kim*, Jun-Tae Lee*, Simyung Chang, Nojun Kwak (* equal contribution)"
+
         venue: "The Thirty-ninth International Conference on Machine Learning (ICML 2022) (Spotlight presentation), July 2022 (BK21+ 사업 선정 우수학술대회)"
+
         link: "https://proceedings.mlr.press/v162/kim22e.html"
+
         year: 2022
 
       - title: "Detection of Word Adversarial Examples in Text Classification: Benchmark and Baseline via Robust Density Estimation"
+
         authors: "KiYoon Yoo, Jangho Kim, Jiho Jang, Nojun Kwak"
+
         venue: "Findings of ACL 2022 (BK21+ 사업 선정 우수학술대회)"
+
         link: "https://aclanthology.org/2022.findings-acl.289/"
+
         year: 2022
 
       - title: "Vehicle Image Generation Going Well With the Surroundings "
+
         authors: "Jeesoo Kim*, Jangho Kim*, Jaeyoung Yoo, Daesik Kim, Nojun Kwak (* equal contribution)"
+
         venue: "28th International Conference on Neural Information Processing (ICONIP 2021), Dec. 2021"
+
         link: "https://arxiv.org/abs/1807.02925"
+
         year: 2021
 
       - title: "Domain Generalization of Efficient Acoustic Scene Classification using Residual Normalization"
+
         authors: "Byeonggeun Kim, Seunghan Yang, Jangho Kim, Simyung Chang"
+
         venue: " IEEE AASP Challenge on Detection and Classification of Acoustic Scenes and Events (DCASE) Workshop, Nov. 2021"
+
         link: "https://arxiv.org/abs/2111.06531"
+
         year: 2021
 
       - title: "PQK: Model Compression via Pruning, Quantization, and Knowledge Distillation"
+
         authors: "Jangho Kim, Simyung Chang, Nojun Kwak"
+
         venue: "The 22nd Annual Conference of the International Speech Communication Association (InterSpeech 2021), Aug 2021, Brno, Czech Republic (한국정보과학회 선정 우수학술대회)"
+
         link: "https://arxiv.org/abs/2106.14681"
+
         year: 2021
 
       - title: "Prototype-based Personalized Pruning"
+
         authors: "Jangho Kim, Simyung Chang, Sungrack Yun, Nojun Kwak"
+
         venue: "2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2021), June. 2021, online (한국정보과학회 선정 우수학술대회)"
+
         link: "https://arxiv.org/abs/2103.15564"
+
         year: 2021
 
       - title: "Position-based Scaled Gradient for Model Quantization and Sparse Training"
+
         authors: "Jangho Kim, KiYoon Yoo, Nojun Kwak"
+
         venue: " Thirty-fourth Conference on Neural Information Processing Systems (NeurIPS 2020), Dec. 2020, online (BK21+ 사업 선정 우수학술대회)"
+
         link: "https://arxiv.org/abs/2005.11035"
+
         year: 2020
 
       - title: "Feature Fusion for Online Mutual Knowledge Distillation"
+
         authors: "Jangho Kim, Minsung Hyun, Inseop Chung, Nojun Kwak "
+
         venue: "25th International Conference on Pattern Recognition (ICPR 2020), Milan, Italy, Jan. 2021 (BK21+ 사업 선정 우수학술대회)"
+
         link: "https://arxiv.org/abs/1904.09058"
+
         year: 2020
 
       - title: "Feature-map-level Online Adversarial Knowledge Distillation"
+
         authors: "Inseop Chung, SeongUk Park, Jangho Kim, Nojun Kwak"
+
         venue: "Thirty-seventh International Conference on Machine Learning (ICML 2020), July 2020, Online (BK21+ 사업 선정 우수학술대회)"
+
         link: "https://arxiv.org/abs/2002.01775"
+
         year: 2020
 
       - title: "StackNet: Stacking Parameters for Continual learning"
+
         authors: "Jangho Kim*, Jeesoo Kim*, Nojun Kwak (* equal contribution)"
+
         venue: "CVPR 2020 Workshop on Continual Learning in Computer Vision, June 2020, Seattle WA (Online)"
+
         link: "https://arxiv.org/abs/1809.02441"
+
         year: 2020
 
       - title: "Paraphrasing Complex Network: Network Compression via Factor Transfer"
+
         authors: "Jangho Kim, SeoungUK Park, Nojun Kwak"
+
         venue: "Thirty-second Conference on Neural Information Processing Systems (NeurIPS 2018), Montreal, Canada, Dec. 2018 (BK21+ 사업 선정 우수학술대회)"
+
         link: "https://arxiv.org/abs/1802.04977"
+
         year: 2018
 
       - title: "Detecting Korean characters in natural scenes by alphabet detection and agglomerative character construction"
+
         authors: "Jangho Kim, Yong-Joong Kim, Yonghyun Kim, Daijin Kim"
+
         venue: "IEEE International Conference on Systems, Man, and Cybernetics 2016 (SMC 2016) (한국정보과학회 선정 우수학술대회)"
+
         link: "https://ieeexplore.ieee.org/document/7844828"
+
         year: 2016
 
-
-
-    
     # International Journals
+
     journals:
+
       - title: "Entropy-Guided Meta-Initialization regularization for few-shot text classification"
+
         authors: "Jongyun Shin*, Jinwoo Kim*, Jangho Kim"
+
         venue: "Knowledge-Based Systems"
+
         link: "https://www.sciencedirect.com/science/article/abs/pii/S0950705125010068"
+
         year: 2025
 
       - title: "Magnitude attention-based dynamic pruning"
+
         authors: "Jihye Back, Namhyuk Ahn, Jangho Kim"
+
         venue: "Expert Systems with Applications"
+
         link: "https://www.sciencedirect.com/science/article/abs/pii/S0957417425005792"
+
         year: 2025
 
       - title: "Layerwise-priority-based gradient adjustment for few-shot learning"
+
         authors: "Jangho Kim, JunHoo Lee, Donghoon Han, Nojun Kwak"
+
         venue: "Expert Systems with Applications"
+
         link: "https://www.sciencedirect.com/science/article/abs/pii/S095741742500675X"
+
         year: 2025
 
       - title: "Quantization-aware training with Dynamic and Static Pruning"
+
         authors: "Sangho An, Jongyun Shin, Jangho Kim"
+
         venue: "IEEE Access"
+
         link: "https://ieeexplore.ieee.org/document/10946020"
+
         year: 2025
 
       - title: "Quantization Robust Pruning With Knowledge Distillation"
+
         authors: "Jangho Kim"
+
         venue: "IEEE Access"
+
         link: "https://ieeexplore.ieee.org/document/10072406"
+
         year: 2023
 
       - title: "Model Compression via Position-Based Scaled Gradient"
+
         authors: "Jangho Kim, KiYoon Yoo, Nojun Kwak"
+
         venue: "IEEE Access, vol. 10"
+
         link: "https://ieeexplore.ieee.org/document/9996406"
+
         year: 2022
-        
+
     # Challenges
+
     challenges:
+
       - title: "Machine unlearning Challenge (2nd place in the competition) - hosted at NeurIPS 2023"
+
         team: ""  # 대신 빈 문자열 사용
+
         venue: "hosted at NeurIPS 2023"
+
         link: ""  # 대신 빈 문자열 사용
+
         rank: "2nd Place"
-        
+
       - title: "Detection and Classification of Acoustic Scenes and Events (DCASE)"
+
         team: ""
+
         venue: "hosted at IEEE AASP - Task 1-a"
+
         link: ""
+
         rank: "1st Place"
-      
+
       - title: "MicroNet Challenge"
+
         team: ""
+
         venue: "NeurIPS 2019 - ImageNet domain "
+
         link: ""
+
         rank: "3rd Place"
 
-
     # Open Archive and Tech Reports
+
     archives:
+
       - title: "QTI Submission to DCASE 2021: Residual Normalization for Device-Imbalanced Acoustic Scene Classification with Efficient Design"
+
         authors: "Byeonggeun Kim, Seunghan Yang, Jangho Kim, Simyung Chang"
+
         venue: "IEEE AASP Challenge on Detection and Classification of Acoustic Scenes and Events (DCASE), Jul. 2021"
+
         link: "https://arxiv.org/abs/2206.13909"
+
         year: 2021
 
       - title: "QKD: Quantization-aware Knowledge Distillation"
-        authors: "Jangho Kim*, Yash Bhalgat*, Jinwon Lee, Chirag Patel, Nojun Kwak (* equal contribution)"
-        venue: "arXiv, Nov. 2019."
-        link: "https://arxiv.org/abs/1911.12491"
-        year: 2019
-    
 
-    # Open Archive and Tech Reports
-    Projects:
+        authors: "Jangho Kim*, Yash Bhalgat*, Jinwon Lee, Chirag Patel, Nojun Kwak (* equal contribution)"
+
+        venue: "arXiv, Nov. 2019."
+
+        link: "https://arxiv.org/abs/1911.12491"
+
+        year: 2019
+
+  projects:
+    title: "Research Projects"
+    text: "Sponsored Research and Industry Collaboration"
+    section: projects
+    list:
       - title: "AI Models for Content IP Protection and Color Transfer"
+
         organization: "Easywith"
+
         role: "Principal Investigator"
+
         year: "2026"
 
       - title: "AI Model Compression for Real-Time Vision-Language Model Services"
+
         organization: "Hyundai Motor & Kia, Robotics Lab"
+
         role: "Principal Investigator"
+
         year: "2025–2026"
 
       - title: "Hardware-Aware Model Compression for Real-Time Edge AI"
+
         organization: "National Research Foundation of Korea (NRF), MSIT"
+
         role: "Principal Investigator"
+
         year: "2025–2026"
 
       - title: "Generation and Detection of Irregular Obstacles in Steelworks"
+
         organization: "POSCO"
+
         role: "Principal Investigator"
+
         year: "2025–2026"
 
       - title: "Face-Specialized AI Models and Video Color Transfer"
+
         organization: "Easywith"
+
         role: "Principal Investigator"
+
         year: "2025"
 
       - title: "Generative AI for Image and Video Analysis and Generation (Year 2)"
+
         organization: "Easywith"
+
         role: "Principal Investigator"
+
         year: "2025–2026"
 
       - title: "Model Quantization Algorithms for On-Device AI"
+
         organization: "LG Electronics, CTO"
+
         role: "Principal Investigator"
+
         year: "2025"
 
       - title: "Road-Icing Recognition for Safe Autonomous Driving"
+
         organization: "Hyundai Motor & Kia, Autonomous Vanguard Team"
+
         role: "Principal Investigator"
+
         year: "2024–2025"
 
       - title: "Generative AI for Image and Video Analysis and Generation"
+
         organization: "Easywith"
+
         role: "Principal Investigator"
+
         year: "2024–2025"
 
       - title: "Model Compression Technology for Vision Transformers"
+
         organization: "Hyundai Motor & Kia, Robotics Lab"
+
         role: "Principal Investigator"
+
         year: "2024–2025"
 
       - title: "Defect Detection under Varying Visual Conditions"
+
         organization: "Electronics and Telecommunications Research Institute (ETRI)"
+
         role: "Principal Investigator"
+
         year: "2023"
 
       - title: "AI Star Fellowship Program: Multimodal Embodied AI and Robotics"
+
         organization: "Kookmin University, MSIT/IITP"
+
         role: "Project Manager"
+
         year: "2025–2030"
 
       - title: "Decision-Making Framework for Dam Operations"
+
         organization: "Korea Hydro & Nuclear Power (KHNP)"
+
         role: "Participating Researcher"
+
         year: "2026–2027"
 
       - title: "Farm-Specific Early Warning System for Agrometeorological Hazards"
+
         organization: "Rural Development Administration (RDA)"
+
         role: "Participating Researcher"
+
         year: "2024–2027"
 
-    # Patents
-    # Patents
-    # patents:
-    #   - title: "Residual normalization for improved neural network classifications"
-    #     inventors: "Byeonggeun Kim, Simyung Chang, Jangho Kim, YANG Seunghan, Kyu Woong Hwang"
-    #     number: "US Patent App. 17/807,479"
-    #     status: "Granted"
-        
-    #   - title: "Bayesian personalization"
-    #     inventors: "Jangho Kim, Juntae Lee, Simyung Chang"
-    #     number: "US Patent App. 17/824,832"
-    #     status: "Granted"
-        
-    #   - title: "MODEL COMPRESSION USING PRUNING QUANTIZATION AND KNOWLEDGE DISTILLATION"
-    #     inventors: "Jangho Kim, Simyung Chang, Hyunsin Park, Juntae Lee, Jaewon Choi, Kyu Woong Hwang"
-    #     number: "US Patent App. 17/705,248"
-    #     status: "Granted"
-        
-    #   - title: "Personalized neural network pruning"
-    #     inventors: "Simyung Chang, Jangho Kim, PARK Hyunsin, LEE Juntae, Jaewon Choi, Kyu Woong Hwang"
-    #     number: "US Patent App. 17/506,646" 
-    #     status: "Granted"
-
   notice:
+
     title: "Notice"
+
     text: "연구실 소식 및 공지사항"
+
     section: notice
+
     list:
+
       # - title: "P"
+
       #   date: "2025-02-25"
+
       #   desc: "우리 연구실의 'AI in Healthcare' 논문이 국제 저널에 게재되었습니다."
-      #   link: "#"
-      - title: "대학원생 & 학부 연구생 연구원 모집"
-        date: "2025-03-04"
-        desc: "딥러닝에 관심 있는 학부생을 모집합니다."
-        link: "#"
-      # - title: "워크샵 개최 안내"
-      #   date: "2025-02-10"
-      #   desc: "3월 15일 AI 기술 동향 워크샵을 개최합니다. 관심 있는 학생들의 참여를 바랍니다."
-      #   link: "#"
-      # - title: "연구비 지원 소식"
-      #   date: "2025-02-01"
-      #   desc: "우리 연구실이 새로운 국가 연구 과제에 선정되었습니다."
+
       #   link: "#"
 
+      - title: "대학원생 & 학부 연구생 연구원 모집"
+
+        date: "2025-03-04"
+
+        desc: "딥러닝에 관심 있는 학부생을 모집합니다."
+
+        link: "#"
+
+      # - title: "워크샵 개최 안내"
+
+      #   date: "2025-02-10"
+
+      #   desc: "3월 15일 AI 기술 동향 워크샵을 개최합니다. 관심 있는 학생들의 참여를 바랍니다."
+
+      #   link: "#"
+
+      # - title: "연구비 지원 소식"
+
+      #   date: "2025-02-01"
+
+      #   desc: "우리 연구실이 새로운 국가 연구 과제에 선정되었습니다."
+
+      #   link: "#"
 
   contact:
+
     title: "Contact Us"
+
     text: "연구실에 관심이 있으시면 언제든지 연락주세요"
+
     section: contact
+
     name: "이름*"
+
     name-validation: "이름을 입력해주세요."
+
     email: "이메일*"
+
     email-validation: "이메일 주소를 입력해주세요."
+
     phone: "전화번호"
+
     phone-validation: "전화번호를 입력해주세요."
+
     message: "메시지*"
+
     message-validation: "메시지를 입력해주세요."
+
     subject: "연구실 웹사이트 문의"
+
     submit: "메시지 보내기"
 
   footer:
+
     legal: "개인정보 처리방침"
+
     social:
+
       - url: https://twitter.com
+
         icon: "fab fa-twitter"
+
       - url: https://facebook.com
+
         icon: "fab fa-facebook-f"
+
       - url: https://linkedin.com
+
         icon: "fab fa-linkedin-in"
+
       - url: https://github.com
+
         icon: "fab fa-github"
+
 en-US:
+
   <<: *DEFAULT_EN
+
 en-CA:
+
   <<: *DEFAULT_EN
+
 en-GB:
+
   <<: *DEFAULT_EN
+
 en-AU:
+
   <<: *DEFAULT_EN
 
 # Additional language sections would go here (Spanish, German, etc.)
+
 # Each with the same structure as the English version
