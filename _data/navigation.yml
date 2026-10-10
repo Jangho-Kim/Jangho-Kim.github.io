@@ -1,14 +1,5 @@
-#
-# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
-#
-# Configuration: Add to _config.yml
-# locale: "en-US"  [YOUR PREFERRED LOCALE]
-#
-# How to use:
-# {{ site.data.navigation[site.locale].nav.<var_name> | default: 'text' }}
-
+# Navigation for ML&PR Lab
 # English (default)
-# -----------------
 en: &DEFAULT_EN
   nav:
     - title: "NOTICE"
@@ -19,6 +10,8 @@ en: &DEFAULT_EN
       section: about
     - title: "PUBLICATIONS"
       section: publications
+    - title: "PROJECTS"
+      section: projects
     - title: "CONTACT"
       section: contact
 en-US:
@@ -30,8 +23,6 @@ en-GB:
 en-AU:
   <<: *DEFAULT_EN
 
-# Spanish - Keeping this for future localization if needed
-# -------
 es: &DEFAULT_ES
   nav:
     - title: "Notice"
@@ -42,6 +33,8 @@ es: &DEFAULT_ES
       section: about
     - title: "Publications"
       section: publications
+    - title: "Projects"
+      section: projects
     - title: "Contact"
       section: contact
 es-ES:
@@ -49,8 +42,6 @@ es-ES:
 es-CO:
   <<: *DEFAULT_ES
 
-# Deutsch - Keeping this for future localization if needed
-# -----------------
 de: &DEFAULT_DE
   nav:
     - title: "Notice"
@@ -61,6 +52,8 @@ de: &DEFAULT_DE
       section: about
     - title: "Publications"
       section: publications
+    - title: "Projects"
+      section: projects
     - title: "Contact"
       section: contact
 de-DE:
