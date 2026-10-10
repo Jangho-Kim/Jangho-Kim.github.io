@@ -202,16 +202,45 @@ en: &DEFAULT_EN
     conferences:
 
 
+      - title: "Q-ViK: Question-Guided Visual KV Cache Eviction for Large Vision-Language Models"
+        authors: "Solhee Hwang, Jangho Kim"
+        venue: "Advances in Neural Information Processing Systems (NeurIPS 2026) (BK21+ 사업 선정 우수학술대회)"
+        link: ""
+        year: 2026
+
+      - title: "Hardware-Friendly Token-Group Activation Quantization for Low-Bit Mamba Super-Resolution"
+        authors: "Jinwoo Chung, Jangho Kim"
+        venue: "Advances in Neural Information Processing Systems (NeurIPS 2026) (BK21+ 사업 선정 우수학술대회)"
+        link: ""
+        year: 2026
+
+      - title: "Improving Neural Processes in the Low-Data Regime via Context-Subset Training and Self-Distillation"
+        authors: "Hyungi Lee, Jangho Kim"
+        venue: "Advances in Neural Information Processing Systems (NeurIPS 2026) (BK21+ 사업 선정 우수학술대회)"
+        link: ""
+        year: 2026
+
+      - title: "PriSM: Prior-guided Shared-basis Mixture Personalization for LLMs under Sparse User Histories"
+        authors: "Hea Eun Lee, Hyungi Lee^, Jangho Kim^"
+        venue: "Advances in Neural Information Processing Systems (NeurIPS 2026) (BK21+ 사업 선정 우수학술대회)"
+        link: ""
+        year: 2026
+
+      - title: "ManiFusion: Unlocking High-Throughput Generation via Superposition in Manifold Space"
+        authors: "Minkyu Kim, Baekseung Kim, Junhoo Lee, Jangho Kim^, Nojun Kwak^"
+        venue: "Advances in Neural Information Processing Systems (NeurIPS 2026) (BK21+ 사업 선정 우수학술대회)"
+        link: ""
+        year: 2026
+
       - title: "Learning Task-Conditioned Distributional Initializers for Variational Quantum Algorithms"
         authors: "Hea Eun Lee, Jangho Kim"
         venue: "The IEEE International Conference on Data Mining (ICDM 2026) (BK21+ 사업 선정 우수학술대회)"
         link: ""
         year: 2026
 
-
       - title: "Quantized Contrastive Unlearning"
         authors: "Hyunjoon Cho, Jongyun Shin, Doun Lee, Jangho Kim"
-        venue: "Proceedings of the 35th ACM International Conference on Information and Knowledge Management  (CIKM 2026) (BK21+ 사업 선정 우수학술대회)"
+        venue: "Proceedings of the 35th ACM International Conference on Information and Knowledge Management  (CIKM 2026) (Oral presentation) (BK21+ 사업 선정 우수학술대회)"
         link: ""
         year: 2026
 
@@ -223,7 +252,7 @@ en: &DEFAULT_EN
 
       - title: "Sparse Recovery Bird’s-Eye View Model Soup for Robust Camera-Based 3D Object Detection"
         authors: "Jinwoo Chung, Sangho An, Hyunsung Park, Jangho Kim"
-        venue: "Proceedings of the 2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026) (한국정보과학회 선정 우수학술대회)"
+        venue: "Proceedings of the 2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026) (Oral presentation) (한국정보과학회 선정 우수학술대회)"
         link: ""
         year: 2026
 
@@ -241,7 +270,7 @@ en: &DEFAULT_EN
 
       - title: "SharedKD: Gradient-Guided Dynamic Student Discovery inside a Single 3D Object Detector"
         authors: "Hyunjoon Cho*, Sangho An*, Hyunsung Park, Jangho Kim"
-        venue: "Design Automation Conference (DAC 2026) (BK21+ 사업 선정 우수학술대회)"
+        venue: "Design Automation Conference (DAC 2026) (Oral presentation) (BK21+ 사업 선정 우수학술대회)"
         link: ""
         year: 2026
         
@@ -261,7 +290,7 @@ en: &DEFAULT_EN
 
       - title: "Exploring Diverse Sparse Network Structures via Dynamic Pruning with Weight Alignment"
         authors: "Jinwoo Kim, Jongyun Shin, Sangho An, Jangho Kim"
-        venue: "Proceedings of the 34th ACM International Conference on Information and Knowledge Management  (CIKM 2025) (BK21+ 사업 선정 우수학술대회)"
+        venue: "Proceedings of the 34th ACM International Conference on Information and Knowledge Management  (CIKM 2025) (Oral presentation) (BK21+ 사업 선정 우수학술대회)"
         link: "https://dl.acm.org/doi/10.1145/3746252.3761122"
         year: 2025
 
@@ -297,7 +326,7 @@ en: &DEFAULT_EN
 
       - title: "Variational On-the-Fly Personalization"
         authors: "Jangho Kim*, Jun-Tae Lee*, Simyung Chang, Nojun Kwak (* equal contribution)"
-        venue: "The Thirty-ninth International Conference on Machine Learning (ICML 2022), July 2022 (BK21+ 사업 선정 우수학술대회)"
+        venue: "The Thirty-ninth International Conference on Machine Learning (ICML 2022) (Spotlight presentation), July 2022 (BK21+ 사업 선정 우수학술대회)"
         link: "https://proceedings.mlr.press/v162/kim22e.html"
         year: 2022
 
@@ -443,6 +472,79 @@ en: &DEFAULT_EN
         link: "https://arxiv.org/abs/1911.12491"
         year: 2019
     
+
+    # Open Archive and Tech Reports
+    Projects:
+      - title: "AI Models for Content IP Protection and Color Transfer"
+        organization: "Easywith"
+        role: "Principal Investigator"
+        year: "2026"
+
+      - title: "AI Model Compression for Real-Time Vision-Language Model Services"
+        organization: "Hyundai Motor & Kia, Robotics Lab"
+        role: "Principal Investigator"
+        year: "2025–2026"
+
+      - title: "Hardware-Aware Model Compression for Real-Time Edge AI"
+        organization: "National Research Foundation of Korea (NRF), MSIT"
+        role: "Principal Investigator"
+        year: "2025–2026"
+
+      - title: "Generation and Detection of Irregular Obstacles in Steelworks"
+        organization: "POSCO"
+        role: "Principal Investigator"
+        year: "2025–2026"
+
+      - title: "Face-Specialized AI Models and Video Color Transfer"
+        organization: "Easywith"
+        role: "Principal Investigator"
+        year: "2025"
+
+      - title: "Generative AI for Image and Video Analysis and Generation (Year 2)"
+        organization: "Easywith"
+        role: "Principal Investigator"
+        year: "2025–2026"
+
+      - title: "Model Quantization Algorithms for On-Device AI"
+        organization: "LG Electronics, CTO"
+        role: "Principal Investigator"
+        year: "2025"
+
+      - title: "Road-Icing Recognition for Safe Autonomous Driving"
+        organization: "Hyundai Motor & Kia, Autonomous Vanguard Team"
+        role: "Principal Investigator"
+        year: "2024–2025"
+
+      - title: "Generative AI for Image and Video Analysis and Generation"
+        organization: "Easywith"
+        role: "Principal Investigator"
+        year: "2024–2025"
+
+      - title: "Model Compression Technology for Vision Transformers"
+        organization: "Hyundai Motor & Kia, Robotics Lab"
+        role: "Principal Investigator"
+        year: "2024–2025"
+
+      - title: "Defect Detection under Varying Visual Conditions"
+        organization: "Electronics and Telecommunications Research Institute (ETRI)"
+        role: "Principal Investigator"
+        year: "2023"
+
+      - title: "AI Star Fellowship Program: Multimodal Embodied AI and Robotics"
+        organization: "Kookmin University, MSIT/IITP"
+        role: "Project Manager"
+        year: "2025–2030"
+
+      - title: "Decision-Making Framework for Dam Operations"
+        organization: "Korea Hydro & Nuclear Power (KHNP)"
+        role: "Participating Researcher"
+        year: "2026–2027"
+
+      - title: "Farm-Specific Early Warning System for Agrometeorological Hazards"
+        organization: "Rural Development Administration (RDA)"
+        role: "Participating Researcher"
+        year: "2024–2027"
+
     # Patents
     # Patents
     # patents:
