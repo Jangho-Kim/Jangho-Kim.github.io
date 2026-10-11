@@ -688,7 +688,7 @@ en: &DEFAULT_EN
 
         authors: "Jongyun Shin*, Hea Eun Lee*, Hyunjoon Cho, Jangho Kim"
 
-        venue: "Expert Systems with Applications"
+        venue: "Expert Systems with Applications (JCR Q1, IF: 9.4; 2025)"
 
         link: ""
 
@@ -699,7 +699,7 @@ en: &DEFAULT_EN
 
         authors: "Jongyun Shin*, Jinwoo Kim*, Jangho Kim"
 
-        venue: "Knowledge-Based Systems"
+        venue: "Knowledge-Based Systems (JCR Q1, IF: 8.0; 2025)"
 
         link: "https://www.sciencedirect.com/science/article/abs/pii/S0950705125010068"
 
@@ -709,7 +709,7 @@ en: &DEFAULT_EN
 
         authors: "Jihye Back, Namhyuk Ahn, Jangho Kim"
 
-        venue: "Expert Systems with Applications"
+        venue: "Expert Systems with Applications (JCR Q1, IF: 9.4; 2025)"
 
         link: "https://www.sciencedirect.com/science/article/abs/pii/S0957417425005792"
 
@@ -719,7 +719,7 @@ en: &DEFAULT_EN
 
         authors: "Jangho Kim, JunHoo Lee, Donghoon Han, Nojun Kwak"
 
-        venue: "Expert Systems with Applications"
+        venue: "Expert Systems with Applications (JCR Q1, IF: 9.4; 2025)"
 
         link: "https://www.sciencedirect.com/science/article/abs/pii/S095741742500675X"
 
@@ -729,7 +729,7 @@ en: &DEFAULT_EN
 
         authors: "Sangho An, Jongyun Shin, Jangho Kim"
 
-        venue: "IEEE Access"
+        venue: "IEEE Access (JCR Q2, IF: 4.2; 2025)"
 
         link: "https://ieeexplore.ieee.org/document/10946020"
 
@@ -739,7 +739,7 @@ en: &DEFAULT_EN
 
         authors: "Jangho Kim"
 
-        venue: "IEEE Access"
+        venue: "IEEE Access (JCR Q2, IF: 3.4; 2023)"
 
         link: "https://ieeexplore.ieee.org/document/10072406"
 
@@ -749,7 +749,7 @@ en: &DEFAULT_EN
 
         authors: "Jangho Kim, KiYoon Yoo, Nojun Kwak"
 
-        venue: "IEEE Access, vol. 10"
+        venue: "IEEE Access (JCR Q2, IF: 3.9; 2022)"
 
         link: "https://ieeexplore.ieee.org/document/9996406"
 
