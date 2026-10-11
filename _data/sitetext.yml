@@ -684,6 +684,17 @@ en: &DEFAULT_EN
 
     journals:
 
+      - title: "CoPT: Context-based Prompt Tuning for Pretrained Language Model via Test-time Adaptation"
+
+        authors: "Jongyun Shin*, Hea Eun Lee*, Hyunjoon Cho, Jangho Kim"
+
+        venue: "Expert Systems with Applications"
+
+        link: ""
+
+        year: 2026
+
+
       - title: "Entropy-Guided Meta-Initialization regularization for few-shot text classification"
 
         authors: "Jongyun Shin*, Jinwoo Kim*, Jangho Kim"
